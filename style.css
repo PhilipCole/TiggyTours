@@ -1,0 +1,279 @@
+
+* {
+  margin-top: 0;
+}
+
+.top-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px;
+  background-color: black;
+  gap: 5%;
+}
+
+.no-decoration, a:link, a:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: "Oswald";
+  font-weight: bold;
+}
+#whitespace {
+  background-color: white;
+  height:30px;
+  width: 100%;
+}
+
+#latest-adventures-banner {
+  background-color: teal;
+  color: white;
+  text-align: center ;
+  height:70px;
+  width: 100%;
+  font-size: 25px;
+  font-family: "Barlow Condensed";
+}
+
+.main-banner {
+  font-size: 80px;
+  padding: 50px;
+}
+.hero-text {
+  color: white;
+  font-family: "Barlow Condensed";
+  font-size: 100px;
+  padding: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero-image-home {
+  background-image: url("./images/Tiggy/tiggy_profile_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 55%;
+  overflow: hidden;
+}
+.hero-image-yorkshire-dales {
+  background-image: url("./images/yorkshire_dales.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 95%;
+  overflow: hidden;
+}
+.hero-image-north-york-moors {
+  background-image: url("./images/north_york_moors.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  overflow: hidden;
+}
+.hero-image-yorkshire-coast {
+  background-image: url("./images/yorkshire_coast.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 55%;
+  overflow: hidden;
+}
+.hero-image-lake-district {
+  background-image: url("./images/lake_district.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 65%;
+  overflow: hidden;
+}
+.hero-image-wales {
+  background-image: url("./images/wales.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 76%;
+  overflow: hidden;
+}
+li {
+  list-style: none;
+}
+
+.barlow-condensed-thin {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-condensed-extralight {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-condensed-light {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-condensed-regular {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-condensed-medium {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-condensed-semibold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-condensed-bold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-condensed-extrabold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-condensed-black {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-condensed-thin-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-condensed-extralight-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-condensed-light-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-condensed-regular-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-condensed-medium-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-condensed-semibold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-condensed-bold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-condensed-extrabold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-condensed-black-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.oswald-regular> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 15px;
+  font-style: normal;
+}
+.pricing-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.pricing-plan-semerwater {
+  flex: 1;
+  max-width: 400px;
+  height: 250px;
+  padding: 20px;
+  background-image: url("./images/yorkshire_dales.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+}
+
+.pricing-plan-bomber {
+  flex: 1;
+  max-width: 400px;
+  height: 250px;
+  padding: 20px;
+  background-image: url("./images/bomber/bomber.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+}
+
+.pricing-plan-monmouth {
+  flex: 1;
+  max-width: 400px;
+  height: 250px;
+  padding: 20px;
+  background-image: url("./images/monmouth/monmouth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+}
+
+.plan-title {
+  font-family: "Barlow Condensed";
+  color: black;
+  background-color: rgba(255, 255, 255, 0.900);
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-size: 24px;
+}
+
+.plan-button {
+  font-family: "Barlow Condensed";
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: auto;
+  padding: 12px;
+  background-color: rgba(255, 0, 0, 0.700);
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+}
