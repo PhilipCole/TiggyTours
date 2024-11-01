@@ -240,13 +240,13 @@ li {
   background-color: #EEEEEE;
   display: flex;
   flex: 1;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 3rem;
 }
 
 .tours-semerwater {
-  flex: 1;
-  max-width: 400px;
+  width: 400px;
   height: 250px;
   padding: 20px;
   background-image: url("./images/yorkshire_dales.jpg");
@@ -257,8 +257,7 @@ li {
 }
 
 .tours-yorkshire_dales_2024_08_aysgarth_falls {
-  flex: 1;
-  max-width: 400px;
+  width: 400px;
   height: 250px;
   padding: 20px;
   background-image: url("./images/yorkshire_dales_2024_08_aysgarth_falls/yorkshire_dales_2024_08_aysgarth_falls.jpg");
@@ -268,8 +267,7 @@ li {
   text-align: center;
 }
 .tours-yorkshire_dales_2022_09_surrender_mine {
-  flex: 1;
-  max-width: 400px;
+  width: 400px;
   height: 250px;
   padding: 20px;
   background-image: url("./images/yorkshire_dales_2022_09_surrender_mine/yorkshire_dales_2022_09_surrender_mine.jpg");
@@ -279,8 +277,7 @@ li {
   text-align: center;
 }
 .tours-yorkshire_dales_2022_07_malham_cove {
-  flex: 1;
-  max-width: 400px;
+  width: 400px;
   height: 250px;
   padding: 20px;
   background-image: url("./images/yorkshire_dales_2022_07_malham_cove/yorkshire_dales_2022_07_malham_cove.jpg");
