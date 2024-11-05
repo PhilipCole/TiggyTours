@@ -1,7 +1,9 @@
 
 * {
   margin-top: 0;
+  margin-left: 0;
   margin-bottom: 0;
+  margin-right: 0;
 }
 
 .top-menu-container {
@@ -23,18 +25,18 @@
   font-weight: bold;
 }
 #whitespace {
-  background-color: #EEEEEE;
+  background-color: white;
   height:30px;
   width: 100%;
 }
 #whitespace-short {
-  background-color: #EEEEEE;
+  background-color: white;
   height:10px;
   width: 100%;
 }
 
 #tours-title {
-  background-color: #EEEEEE;
+  background-color: white;
   color: #393E46;
   text-align: center ;
   height:50px;
@@ -45,19 +47,24 @@
   text-transform: uppercase;
 }
 
-.main-banner {
-  font-size: 80px;
-  padding: 50px;
-}
 .hero-text {
-  color: #EEEEEE;
+  color: white;
   font-family: "Barlow Condensed";
   font-size: 100px;
   padding: 5%;
   text-align: center;
   text-transform: uppercase;
 }
+.hero-text-2 {
+  color: white;
+  font: "barlow-condensed-semibold";
+  font-size: 100px;
+  padding: 5% 5% 1% 5%;
+  text-align: left;
+  text-transform: uppercase;
+}
 .hero-image-home {
+  width: 100%;
   height: 700px;
   background-image: url("./images/Tiggy/tiggy_profile_1.jpg");
   background-size: cover;
@@ -72,7 +79,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center 95%;
+  background-position: center 97%;
   overflow: hidden;
 }
 .hero-image-north-york-moors {
@@ -117,7 +124,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center 83%;
+  background-position: center 91%;
   overflow: hidden;
 }
 li {
@@ -238,8 +245,9 @@ li {
   font-weight: 15px;
   font-style: normal;
 }
+
 .tours-container {
-  background-color: #EEEEEE;
+  background-color: white;
   display: flex;
   flex: 1;
   flex-wrap: wrap;
@@ -247,128 +255,93 @@ li {
   gap: 3rem;
 }
 
-.tours-semerwater {
+.tours-thumbnail-box{
   width: 400px;
   height: 250px;
   padding: 20px;
-  background-image: url("./images/yorkshire_dales.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
   text-align: center;
+  
+}
+.tours-yorkshire_dales_2024_08_semerwater {
+  background-image: url("./images/yorkshire_dales_2024_08_semerwater_profilepic.jpg");
+  background-position: center center;
+}
+
+.tours-semerwater-top-banner {
+  height: 700px;
+  background-image: url("./images/yorkshire_dales_2024_08_semerwater_profilepic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 95%;
+  overflow: hidden;
 }
 
 .tours-yorkshire_dales_2024_08_aysgarth_falls {
-  width: 400px;
-  height: 250px;
-  padding: 20px;
-  background-image: url("./images/yorkshire_dales_2024_08_aysgarth_falls/yorkshire_dales_2024_08_aysgarth_falls.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("./images/yorkshire_dales_2024_08_aysgarth_falls_profilepic.jpg");
   background-position: center center;
-  text-align: center;
+}
+.tours-yorkshire_dales_2023_08_cauldron_falls {
+  background-image: url("./images/yorkshire_dales_2023_08_cauldron_falls_profilepic.jpg");
+  background-position: center center;
 }
 .tours-yorkshire_dales_2022_09_surrender_mine {
-  width: 400px;
-  height: 250px;
-  padding: 20px;
-  background-image: url("./images/yorkshire_dales_2022_09_surrender_mine/yorkshire_dales_2022_09_surrender_mine.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("./images/yorkshire_dales_2022_09_surrender_mine_profilepic.jpg");
   background-position: center center;
-  text-align: center;
 }
 .tours-yorkshire_dales_2022_07_malham_cove {
-  width: 400px;
-  height: 250px;
-  padding: 20px;
-  background-image: url("./images/yorkshire_dales_2022_07_malham_cove/yorkshire_dales_2022_07_malham_cove.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("./images/yorkshire_dales_2022_07_malham_cove_profilepic.jpg");
   background-position: center center;
-  text-align: center;
+}
+.tours-yorkshire_coast_2024_02_runswick_bay_to_staithes {
+  background-image: url("./images/yorkshire_coast_2024_02_runswick_bay_to_staithes_profilepic.jpg");
+  background-position: center center;
+}
+.tours-yorkshire_coast_2024_08_saltburn_trig_point {
+  background-image: url("./images/yorkshire_coast_2024_08_saltburn_trig_point_profilepic.jpg");
+  background-position: center center;
+}
+.tours-yorkshire_coast_2023_02_kettleness {
+  background-image: url("./images/yorkshire_coast_2023_02_kettleness_profilepic.jpg");
+  background-position: center center;
 }
 .tours-peak_district_2024_08_bomber {
-  flex: 1;
-  max-width: 400px;
-  height: 250px;
-  padding: 20px;
-  background-image: url("./images/peak_district_2024_08_bomber/peak_district_2024_08_bomber.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("./images/peak_district_2024_08_bomber_profilepic.jpg");
   background-position: center center;
-  text-align: center;
 }
-
 .tours-wales_2024_09_monmouth_river_walk {
-  flex: 1;
-  max-width: 400px;
-  height: 250px;
-  padding: 20px;
-  background-image: url("./images/wales_2024_09_monmouth_river_walk/wales_2024_09_monmouth_river_walk.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("./images/wales_2024_09_monmouth_river_walk_profilepic.jpg");
   background-position: center center;
-  text-align: center;
 }
-
+.tours-north_york_moors_2024_11_lordstones_loop {
+  background-image: url("./images/north_york_moors_2024_11_lordstones_loop_profilepic.jpg");
+  background-position: center 40%;
+}
+.tours-north_york_moors_2024_08_lordstones_big_loop {
+  background-image: url("./images/north_york_moors_2024_08_lordstones_big_loop_profilepic.jpg");
+  background-position: center 40%;
+}
 .tours-north_york_moors_2024_05_castleton {
-  flex: 1;
-  max-width: 400px;
-  height: 250px;
-  padding: 20px;
-  background-image: url("./images/north_york_moors_2024_05_castleton/north_york_moors_2024_05_castleton.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center 1%;
-  text-align: center;
+  background-image: url("./images/north_york_moors_2024_05_castleton_profilepic.jpg");
+  background-position: center center;
 }
-
 .tours-north_york_moors_2024_06_danby {
-  flex: 1;
-  max-width: 400px;
-  height: 250px;
-  padding: 20px;
-  background-image: url("./images/north_york_moors_2024_06_danby/north_york_moors_2024_06_danby.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center 1%;
-  text-align: center;
+  background-image: url("./images/north_york_moors_2024_06_danby_profilepic.jpg");
+  background-position: center center;
 }
-
 .tours-north_york_moors_2024_08_lordstones_peaks {
-  flex: 1;
-  max-width: 400px;
-  height: 250px;
-  padding: 20px;
-  background-image: url("./images/north_york_moors_2024_08_lordstones_peaks/north_york_moors_2024_08_lordstones_peaks.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("./images/north_york_moors_2024_08_lordstones_peaks_profilepic.jpg");
   background-position: center 1%;
-  text-align: center;
 }
-
 .tours-lake_district_2023_04_iona_cottage {
-  flex: 1;
-  max-width: 400px;
-  height: 250px;
-  padding: 20px;
-  background-image: url("./images/lake_district_2023_04_iona_cottage/lake_district_2023_04_iona_cottage.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center 1%;
-  text-align: center;
+  background-image: url("./images/lake_district_2023_04_iona_cottage_profilepic.jpg");
+  background-position: center center;
 }
 .tours-lake_district_2022_07_priests_hole {
-  flex: 1;
-  max-width: 400px;
-  height: 250px;
-  padding: 20px;
-  background-image: url("./images/lake_district_2022_07_priests_hole/lake_district_2022_07_priests_hole.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center 1%;
-  text-align: center;
+  background-image: url("./images/lake_district_2022_07_priests_hole_profilepic.jpg");
+  background-position: center 5%;
 }
 
 .tours-title {
@@ -383,6 +356,26 @@ li {
   font-size: 24px;
 }
 
+.tours-top-banner-info{
+  display: inline-block;
+  font-family: "Barlow Condensed";
+  color: rgb(14, 126, 126);
+  background-color: rgba(238, 238, 238, 0.884);
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 5%;
+  padding: 10px 10px 15px 15px;
+  font-size: 24px;
+  width: 300px;
+}
+
+.tours-top-banner-info-title{
+  display: inline-block;
+  color: #393E46;
+  padding-top: 5px;
+  margin-left: 5px;
+  
+}
 .tours-button {
   font-family: "Barlow Condensed";
   font-size: 20px;
@@ -390,7 +383,27 @@ li {
   margin-top: auto;
   padding: 12px;
   background-color: rgba(255, 0, 0, 0.700);
-  color: #EEEEEE;
+  color: white;
   border: none;
   text-transform: uppercase;
+}
+
+.writeup{
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.tt-writeup-title {
+  font-family: "Barlow Condensed";
+  font-size: 40px;
+  text-align: left; 
+  color: #303236;
+}
+
+.tt-writeup {
+  font-family: "Barlow Condensed";
+  font-size: 20px;
+  text-align: left; 
+  color: black;
 }
