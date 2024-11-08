@@ -262,23 +262,19 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  
 }
-.tours-yorkshire_dales_2024_08_semerwater {
-  background-image: url("./images/yorkshire_dales_2024_08_semerwater_profilepic.jpg");
-  background-position: center center;
-}
-
-.tours-semerwater-top-banner {
-  height: 700px;
-  background-image: url("./images/yorkshire_dales_2024_08_semerwater_profilepic.jpg");
+.tours-top-banner {
+  height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center 95%;
   overflow: hidden;
 }
 
+.tours-yorkshire_dales_2024_08_semerwater {
+  background-image: url("./images/yorkshire_dales_2024_08_semerwater_profilepic.jpg");
+  background-position: center 95%;
+}
 .tours-yorkshire_dales_2024_08_aysgarth_falls {
   background-image: url("./images/yorkshire_dales_2024_08_aysgarth_falls_profilepic.jpg");
   background-position: center center;
@@ -315,6 +311,18 @@ li {
   background-image: url("./images/wales_2024_09_monmouth_river_walk_profilepic.jpg");
   background-position: center center;
 }
+.tours-wales_2024_06_devils_kitchen {
+  background-image: url("./images/wales_2024_06_devils_kitchen_profilepic.jpg");
+  background-position: center 1%;
+}
+.tours-wales_2024_06_porth_wen {
+  background-image: url("./images/wales_2024_06_porth_wen_profilepic.jpg");
+  background-position: center 95%;
+}
+.tours-wales_2024_06_aber_falls {
+  background-image: url("./images/wales_2024_06_aber_falls_profilepic.jpg");
+  background-position: center 1%;
+}
 .tours-north_york_moors_2024_11_lordstones_loop {
   background-image: url("./images/north_york_moors_2024_11_lordstones_loop_profilepic.jpg");
   background-position: center 40%;
@@ -335,6 +343,23 @@ li {
   background-image: url("./images/north_york_moors_2024_08_lordstones_peaks_profilepic.jpg");
   background-position: center 1%;
 }
+.tours-north_york_moors_2023_09_bilsdale {
+  background-image: url("./images/north_york_moors_2023_09_bilsdale_profilepic.jpg");
+  background-position: center 1%;
+}
+.tours-north_york_moors_2023_08_chop_gate_urra {
+  background-image: url("./images/north_york_moors_2023_08_chop_gate_urra_profilepic.jpg");
+  background-position: center 1%;
+}
+.tours-north_york_moors_2023_07_rosedale_big_loop {
+  background-image: url("./images/north_york_moors_2023_07_rosedale_big_loop_profilepic.jpg");
+  background-position: center 1%;
+}
+.tours-north_york_moors_2023_06_blakey_loop {
+  background-image: url("./images/north_york_moors_2023_06_blakey_loop_profilepic.jpg");
+  background-position: center 1%;
+}
+
 .tours-lake_district_2023_04_iona_cottage {
   background-image: url("./images/lake_district_2023_04_iona_cottage_profilepic.jpg");
   background-position: center center;
@@ -352,6 +377,7 @@ li {
   text-transform: uppercase;
   font-weight: lighter;
   padding-left: 10px;
+  padding-right: 5px;
   padding-bottom: 5px;
   font-size: 24px;
 }
