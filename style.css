@@ -5,24 +5,42 @@
   margin-bottom: 0;
   margin-right: 0;
 }
+.no-decoration, a:link, a:visited {
+  text-decoration: none;
+  color: #EEEEEE;
+}
 
-.top-menu-container {
+@media (max-width: 800px)
+{.top-menu-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  font-size: 10px;
+  font-family: "Oswald";
+  font-weight: bold;
+  padding: 5px;
+  background-color: black;
+  gap: 3%;
+  position: fixed;
+  width: 100%;
+}
+}
+@media (min-width: 800px)
+{.top-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Oswald";
+  font-weight: bold;
   padding: 9px;
   background-color: black;
   gap: 5%;
   position: fixed;
   width: 100%;
 }
-
-.no-decoration, a:link, a:visited {
-  text-decoration: none;
-  color: #EEEEEE;
-  font-size: 16px;
-  font-family: "Oswald";
-  font-weight: bold;
 }
 #whitespace {
   background-color: white;
@@ -35,7 +53,21 @@
   width: 100%;
 }
 
-#tours-title {
+@media (max-width: 800px)
+{#tours-title {
+  background-color: white;
+  color: #393E46;
+  text-align: center ;
+  height:50px;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Barlow Condensed";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+}
+@media (min-width: 800px)
+{#tours-title {
   background-color: white;
   color: #393E46;
   text-align: center ;
@@ -46,7 +78,7 @@
   font-weight: bold;
   text-transform: uppercase;
 }
-
+}
 .hero-text {
   color: white;
   font-family: "Barlow Condensed";
@@ -271,6 +303,60 @@ li {
   overflow: hidden;
 }
 
+.tours-title {
+  font-family: "Barlow Condensed";
+  color: #303236;
+  background-color: rgba(238, 238, 238, 0.884);
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: lighter;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  font-size: 24px;
+}
+
+.tours-top-banner-info{
+  display: inline-block;
+  font-family: "Barlow Condensed";
+  color: rgb(14, 126, 126);
+  background-color: rgba(238, 238, 238, 0.884);
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 5%;
+  padding: 10px 10px 15px 15px;
+  font-size: 24px;
+  width: 300px;
+}
+
+.tours-top-banner-info-title{
+  display: inline-block;
+  color: #393E46;
+  padding-top: 5px;
+  margin-left: 5px;
+  
+}
+
+.writeup-block-for-text{
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.writeup-title {
+  font-family: "Barlow Condensed";
+  font-size: 40px;
+  text-align: left; 
+  color: #303236;
+}
+
+.writeup-text {
+  font-family: "Barlow Condensed";
+  font-size: 20px;
+  text-align: left; 
+  color: black;
+}
+
 .tours-yorkshire_dales_2024_08_semerwater {
   background-image: url("./images/yorkshire_dales_2024_08_semerwater_profilepic.jpg");
   background-position: center 95%;
@@ -367,69 +453,4 @@ li {
 .tours-lake_district_2022_07_priests_hole {
   background-image: url("./images/lake_district_2022_07_priests_hole_profilepic.jpg");
   background-position: center 5%;
-}
-
-.tours-title {
-  font-family: "Barlow Condensed";
-  color: #303236;
-  background-color: rgba(238, 238, 238, 0.884);
-  text-align: left;
-  text-transform: uppercase;
-  font-weight: lighter;
-  padding-left: 10px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  font-size: 24px;
-}
-
-.tours-top-banner-info{
-  display: inline-block;
-  font-family: "Barlow Condensed";
-  color: rgb(14, 126, 126);
-  background-color: rgba(238, 238, 238, 0.884);
-  text-align: left;
-  text-transform: uppercase;
-  margin-left: 5%;
-  padding: 10px 10px 15px 15px;
-  font-size: 24px;
-  width: 300px;
-}
-
-.tours-top-banner-info-title{
-  display: inline-block;
-  color: #393E46;
-  padding-top: 5px;
-  margin-left: 5px;
-  
-}
-.tours-button {
-  font-family: "Barlow Condensed";
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: auto;
-  padding: 12px;
-  background-color: rgba(255, 0, 0, 0.700);
-  color: white;
-  border: none;
-  text-transform: uppercase;
-}
-
-.writeup{
-  display: block;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-.tt-writeup-title {
-  font-family: "Barlow Condensed";
-  font-size: 40px;
-  text-align: left; 
-  color: #303236;
-}
-
-.tt-writeup {
-  font-family: "Barlow Condensed";
-  font-size: 20px;
-  text-align: left; 
-  color: black;
 }
