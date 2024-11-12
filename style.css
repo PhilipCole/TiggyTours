@@ -11,6 +11,12 @@
 }
 
 @media (max-width: 800px)
+{h1
+  {
+  font-size: 120px;
+  }
+}
+@media (max-width: 800px)
 {.top-menu-container {
   display: flex;
   justify-content: center;
@@ -60,7 +66,7 @@
   text-align: center ;
   height:50px;
   width: 100%;
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Barlow Condensed";
   font-weight: bold;
   text-transform: uppercase;
@@ -87,13 +93,27 @@
   text-align: center;
   text-transform: uppercase;
 }
-.hero-text-2 {
+
+@media (max-width: 800px)
+{.hero-text-2
+  {
+    color: white;
+    font: "barlow-condensed-semibold";
+    font-size: 60px;
+    padding: 5% 5% 1% 5%;
+    text-align: left;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 800px)
+{.hero-text-2 {
   color: white;
   font: "barlow-condensed-semibold";
   font-size: 100px;
   padding: 5% 5% 1% 5%;
   text-align: left;
   text-transform: uppercase;
+}
 }
 .hero-image-home {
   width: 100%;
