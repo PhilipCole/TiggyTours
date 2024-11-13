@@ -69,7 +69,7 @@
   text-align: center ;
   height:50px;
   width: 100%;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Barlow Condensed";
   font-weight: bold;
   text-transform: uppercase;
@@ -360,10 +360,20 @@ li {
   
 }
 
-.writeup-block-for-text{
+@media (max-width: 800px)
+{.writeup-block-for-text{
+  display: block;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+}
+@media (min-width: 800px)
+  {
+  .writeup-block-for-text{
   display: block;
   margin-left: 25%;
   margin-right: 25%;
+  }
 }
 
 .writeup-title {
