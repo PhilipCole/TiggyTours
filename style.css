@@ -46,7 +46,7 @@
   font-weight: bold;
   padding: 9px;
   background-color: black;
-  gap: 5%;
+  gap: 3%;
   position: fixed;
   width: 100%;
 }
@@ -182,6 +182,25 @@
   background-position: center 91%;
   overflow: hidden;
 }
+.hero-image-northumberland {
+  height: 700px;
+  background-image: url("./images/under_construction.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 91%;
+  overflow: hidden;
+}
+.hero-image-cornwall {
+  height: 700px;
+  background-image: url("./images/under_construction.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 91%;
+  overflow: hidden;
+}
+
 li {
   list-style: none;
 }
@@ -410,6 +429,48 @@ li {
   background-image: url("./images/yorkshire_dales_2022_07_malham_cove_profilepic.jpg");
   background-position: center center;
 }
+.tours-yorkshire_dales_2023_08_jervaulx_abbey {
+  background-image: url("./images/yorkshire_dales_2023_08_jervaulx_abbey_profilepic.jpg");
+  background-position: center center;
+}
+.tours-yorkshire_dales_2023_08_preston_under_scar {
+  background-image: url("./images/yorkshire_dales_2023_08_preston_under_scar_profilepic.jpg");
+  background-position: center center;
+}
+.tours-yorkshire_dales_2023_07_egglestone_abbey {
+  background-image: url("./images/yorkshire_dales_2023_07_egglestone_abbey_profilepic.jpg");
+  background-position: center center;
+}
+.tours-yorkshire_dales_2022_09_healaugh {
+  background-image: url("./images/yorkshire_dales_2022_09_healaugh_profilepic.jpg");
+  background-position: center center;
+}
+.tours-yorkshire_dales_2022_08_keld_waterfalls {
+  background-image: url("./images/yorkshire_dales_2022_08_keld_waterfalls_profilepic.jpg");
+  background-position: center center;
+}
+.tours-yorkshire_dales_2022_07_druids_temple {
+  background-image: url("./images/yorkshire_dales_2022_07_druids_temple_profilepic.jpg");
+  background-position: center center;
+}
+.tours-yorkshire_dales_2022_05_easby_abbey {
+  background-image: url("./images/yorkshire_dales_2022_05_easby_abbey_profilepic.jpg");
+  background-position: center center;
+}
+.tours-yorkshire_dales_2019_08_fountains_abbey {
+  background-image: url("./images/yorkshire_dales_2019_08_fountains_abbey_profilepic.jpg");
+  background-position: center center;
+}
+.tours-yorkshire_dales_2019_09_white_scar_cave {
+  background-image: url("./images/yorkshire_dales_2019_09_white_scar_cave_profilepic.jpg");
+  background-position: center center;
+}
+.tours-yorkshire_dales_2019_09_buttertubs {
+  background-image: url("./images/yorkshire_dales_2019_09_buttertubs_profilepic.jpg");
+  background-position: center center;
+}
+
+
 .tours-yorkshire_coast_2024_02_runswick_bay_to_staithes {
   background-image: url("./images/yorkshire_coast_2024_02_runswick_bay_to_staithes_profilepic.jpg");
   background-position: center center;
@@ -422,10 +483,12 @@ li {
   background-image: url("./images/yorkshire_coast_2023_02_kettleness_profilepic.jpg");
   background-position: center center;
 }
+
 .tours-peak_district_2024_08_bomber {
   background-image: url("./images/peak_district_2024_08_bomber_profilepic.jpg");
   background-position: center center;
 }
+
 .tours-wales_2024_09_monmouth_river_walk {
   background-image: url("./images/wales_2024_09_monmouth_river_walk_profilepic.jpg");
   background-position: center center;
@@ -442,12 +505,26 @@ li {
   background-image: url("./images/wales_2024_06_aber_falls_profilepic.jpg");
   background-position: center 1%;
 }
+.tours-wales_2023_09_monmouth {
+  background-image: url("./images/wales_2023_09_monmouth_profilepic.jpg");
+  background-position: center center;
+}
+.tours-wales_2023_01_monmouth {
+  background-image: url("./images/wales_2023_01_monmouth_profilepic.jpg");
+  background-position: center center;
+}
+
+
 .tours-north_york_moors_2024_11_lordstones_loop {
   background-image: url("./images/north_york_moors_2024_11_lordstones_loop_profilepic.jpg");
   background-position: center 40%;
 }
 .tours-north_york_moors_2024_08_lordstones_big_loop {
   background-image: url("./images/north_york_moors_2024_08_lordstones_big_loop_profilepic.jpg");
+  background-position: center 40%;
+}
+.tours-north_york_moors_2024_07_lordstones_small_loop {
+  background-image: url("./images/north_york_moors_2024_07_lordstones_small_loop_profilepic.jpg");
   background-position: center 40%;
 }
 .tours-north_york_moors_2024_05_castleton {
@@ -478,6 +555,26 @@ li {
   background-image: url("./images/north_york_moors_2023_06_blakey_loop_profilepic.jpg");
   background-position: center 1%;
 }
+.tours-north_york_moors_2023_07_rosedale_loop {
+  background-image: url("./images/north_york_moors_2023_07_rosedale_loop_profilepic.jpg");
+  background-position: center 1%;
+}
+.tours-north_york_moors_2023_07_rosedale_loop_short {
+  background-image: url("./images/north_york_moors_2023_07_rosedale_loop_short_profilepic.jpg");
+  background-position: center 1%;
+}
+.tours-north_york_moors_2023_06_rievaulx_abbey {
+  background-image: url("./images/north_york_moors_2023_06_rievaulx_abbey_profilepic.jpg");
+  background-position: center 1%;
+}
+.tours-north_york_moors_2023_05_wharrampercy {
+  background-image: url("./images/north_york_moors_2023_05_wharrampercy_profilepic.jpg");
+  background-position: center 35%;
+}
+.tours-north_york_moors_2018_07_helmsley_castle {
+  background-image: url("./images/north_york_moors_2018_07_helmsley_castle_profilepic.jpg");
+  background-position: center 35%;
+}
 
 .tours-lake_district_2023_04_iona_cottage {
   background-image: url("./images/lake_district_2023_04_iona_cottage_profilepic.jpg");
@@ -486,4 +583,55 @@ li {
 .tours-lake_district_2022_07_priests_hole {
   background-image: url("./images/lake_district_2022_07_priests_hole_profilepic.jpg");
   background-position: center 5%;
+}
+.tours-lake_district_2023_04_haweswater {
+  background-image: url("./images/lake_district_2023_04_haweswater_profilepic.jpg");
+  background-position: center 5%;
+}
+
+
+.tours-northumberland_2022_09_rothbury_restawhile {
+  background-image: url("./images/northumberland_2022_09_rothbury_restawhile_profilepic.jpg");
+  background-position: center center;
+}
+.tours-northumberland_2021_09_castles_and_wall {
+  background-image: url("./images/northumberland_2021_09_castles_and_wall_profilepic.jpg");
+  background-position: center 20%;
+}
+.tours-northumberland_2018_08_holy_island {
+  background-image: url("./images/northumberland_2018_08_holy_island_profilepic.jpg");
+  background-position: center 1%;
+}
+.tours-northumberland_2018_08_belsay_hall {
+  background-image: url("./images/northumberland_2018_08_belsay_hall_profilepic.jpg");
+  background-position: center 60%;
+}
+.tours-northumberland_2019_06_bamburgh_castle {
+  background-image: url("./images/northumberland_2019_06_bamburgh_castle_profilepic.jpg");
+  background-position: center 40%;
+}
+.tours-northumberland_2019_08_alnwick_castle {
+  background-image: url("./images/northumberland_2019_08_alnwick_castle_profilepic.jpg");
+  background-position: center 40%;
+}
+
+
+.tours-teesdale_2018_09_high_force {
+  background-image: url("./images/teesdale_2018_09_high_force_profilepic.jpg");
+  background-position: center center;
+}
+
+.tours-cornwall_2018_07 {
+  background-image: url("./images/cornwall_2018_07_profilepic.jpg");
+  background-position: center 15%;
+}
+.tours-cornwall_2019_06 {
+  background-image: url("./images/cornwall_2019_06_profilepic.jpg");
+  background-position: center center;
+}
+
+
+.tours-durham_2021_05_hurworth_burn_reservoir {
+  background-image: url("./images/durham_2021_05_hurworth_burn_reservoir_profilepic.jpg");
+  background-position: center center;
 }
