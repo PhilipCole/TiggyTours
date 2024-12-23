@@ -469,7 +469,10 @@ li {
   background-image: url("./images/yorkshire_dales_2019_09_buttertubs_profilepic.jpg");
   background-position: center center;
 }
-
+.tours-yorkshire_dales_2024_05_middleham_castle {
+  background-image: url("./images/yorkshire_dales_2024_05_middleham_castle_profilepic.jpg");
+  background-position: center center;
+}
 
 .tours-yorkshire_coast_2024_02_runswick_bay_to_staithes {
   background-image: url("./images/yorkshire_coast_2024_02_runswick_bay_to_staithes_profilepic.jpg");
@@ -511,6 +514,11 @@ li {
 }
 .tours-wales_2023_01_monmouth {
   background-image: url("./images/wales_2023_01_monmouth_profilepic.jpg");
+  background-position: center center;
+}
+
+.tours-wales_2021_10_elan_valley {
+  background-image: url("./images/wales_2021_10_elan_valley_profilepic.jpg");
   background-position: center center;
 }
 
