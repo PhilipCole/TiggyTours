@@ -382,8 +382,8 @@ li {
 @media (max-width: 800px)
 {.writeup-block-for-text{
   display: block;
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 }
 @media (min-width: 800px)
