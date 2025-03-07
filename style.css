@@ -184,20 +184,20 @@
 }
 .hero-image-northumberland {
   height: 700px;
-  background-image: url("./images/under_construction.jpg");
+  background-image: url("./images/northumberland.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center 91%;
+  background-position: center 60%;
   overflow: hidden;
 }
 .hero-image-cornwall {
   height: 700px;
-  background-image: url("./images/under_construction.jpg");
+  background-image: url("./images/cornwall.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center 91%;
+  background-position: center 100%;
   overflow: hidden;
 }
 
@@ -409,6 +409,11 @@ li {
   color: black;
 }
 
+
+.tours-yorkshire_dales_2025_03_penhill {
+  background-image: url("./images/yorkshire_dales_2025_03_penhill_profilepic.jpg");
+  background-position: center 5%;
+}
 .tours-yorkshire_dales_2024_08_semerwater {
   background-image: url("./images/yorkshire_dales_2024_08_semerwater_profilepic.jpg");
   background-position: center 95%;
@@ -474,6 +479,12 @@ li {
   background-position: center center;
 }
 
+
+
+.tours-yorkshire_coast_2025_01_saltburn {
+  background-image: url("./images/yorkshire_coast_2025_01_saltburn_profilepic.jpg");
+  background-position: center center;
+}
 .tours-yorkshire_coast_2024_02_runswick_bay_to_staithes {
   background-image: url("./images/yorkshire_coast_2024_02_runswick_bay_to_staithes_profilepic.jpg");
   background-position: center center;
