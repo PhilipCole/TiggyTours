@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiggy Tours</title>
+  <link rel="stylesheet" href="./style.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+  </script>
+
+  <div class="tours-top-banner tours-yorkshire_dales_2023_08_cauldron_falls">
+    <div class="hero-text-2 barlow-condensed-semibold">Cauldron falls</div>
+    <div class="tours-top-banner-info barlow-condensed-semibold">
+      <div class="tours-top-banner-info-title">Date:</div>
+        1 August 2024<br>
+      <div class="tours-top-banner-info-title">Distance:</div>
+        1.3 miles / 2 km<br>
+      <div class="tours-top-banner-info-title">Time:</div>
+        40 mins
+    </div>
+  </div>
+
+  <div id="whitespace"></div>
+  
+  <div class="writeup-block-for-text">
+    <p class="writeup-title barlow-condensed-semibold">A road trip to Cauldron Falls with a little loop back to West Burton.</p>
+    <div id="whitespace"></div>
+    <p class="writeup-text">A nice little roadtrip to West Burton in Wensleydale with a waterfall, picnic and a short loop back to Tiggy.
+      <br><br>This is the short loop we did.<br><br>
+      <a href="https://explore.osmaps.com/route/25276675/cauldron-falls-loop?lat=54.273513&lon=-1.975745&zoom=15.3463&style=Leisure&type=2d&params=25276675&params=cauldron-falls-loop" target="_blank"> 
+        <img src= "./images/yorkshire_dales_2023_08_cauldron_falls_osroute.jpg" width = 100%>
+      </a>
+      <br><br>Some info on the waterfall.<br><br>
+      <img src= "./images/yorkshire_dales_2023_08_cauldron_falls_1.jpg" width = 100%>
+      <br><br>We left Tiggy by the bridge, near the waterfall.<br><br>
+      <img src= "./images/yorkshire_dales_2023_08_cauldron_falls_2.jpg" width = 100%>
+      <br><br>Next to the parking spots is this bridge, we'll be crossing this later as part of our walk.<br><br>
+      <img src= "./images/yorkshire_dales_2023_08_cauldron_falls_5.jpg" width = 100%>
+      <br><br>
+      <img src= "./images/yorkshire_dales_2023_08_cauldron_falls_3.jpg" width = 100%>
+      <br><br>
+      <img src= "./images/yorkshire_dales_2023_08_cauldron_falls_4.jpg" width = 100%>
+      <br><br>Then we crossed the bridge and headed through a small gate, uphill, to a field for our picnic and these views.<br><br>
+      <img src= "./images/yorkshire_dales_2023_08_cauldron_falls_6.jpg" width = 100%>
+      <br><br>
+      <img src= "./images/yorkshire_dales_2023_08_cauldron_falls_7.jpg" width = 100%>
+      <br><br>I think Ruby enjoyed the picnic more than the views.<br><br>
+      <img src= "./images/yorkshire_dales_2023_08_cauldron_falls_8.jpg" width = 100%>
+      <br><br>We then headed south through some fields, past some cows until we crossed the river where we then turned north to head back to West Burton and Tiggy.<br><br>
+      <img src= "./images/yorkshire_dales_2023_08_cauldron_falls_9.jpg" width = 100%>
+      <br><br>
+    </p>
+  </div>
+
+
+  <div id="whitespace"></div>
+  <hr />
+  <div id="whitespace"></div>
+  
+  <div id="tours-title">--   Other Yorkshire Tours   --</div>
+
+  <div id="whitespace"></div>
+
+  <div class="tours-container">
+    <a href="./yorkshire_dales_2024_08_semerwater.html">
+      <div class="tours-thumbnail-box tours-yorkshire_dales_2024_08_semerwater">
+        <div class="tours-title">Up, down and around Semerwater - wensleydale - August 2024</div>
+      </div>
+    </a>
+    <a href="./yorkshire_dales_2024_08_aysgarth_falls.html">
+      <div class="tours-thumbnail-box tours-yorkshire_dales_2024_08_aysgarth_falls">
+        <div class="tours-title">Bolton castle to Aysgarth falls - wensleydale- august 2024</div>
+      </div>
+    </a>
+    <a href="./yorkshire_dales_2022_09_surrender_mine.html">
+      <div class="tours-thumbnail-box tours-thumbnail-box tours-yorkshire_dales_2022_09_surrender_mine">
+        <div class="tours-title">Surrender mine - swaledale- september 2022</div>
+      </div>
+    </a>
+    <a href="./yorkshire_dales_2022_07_malham_cove.html">
+      <div class="tours-thumbnail-box tours-yorkshire_dales_2022_07_malham_cove">
+        <div class="tours-title">Malham Cove - malhamdale - july 2022</div>
+      </div>
+    </a>
+  </div>
+      
+  <div id="whitespace"></div>
+        
+</body>
+
+</html>
+

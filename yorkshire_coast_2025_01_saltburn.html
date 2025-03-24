@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiggy Tours</title>
+  <link rel="stylesheet" href="./style.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+  </script>
+
+  <div class="tours-top-banner tours-yorkshire_coast_2025_01_saltburn">
+    <div class="hero-text-2 barlow-condensed-semibold">A blustery day by the beach</div>
+    <div class="tours-top-banner-info barlow-condensed-semibold">
+      <div class="tours-top-banner-info-title">Date:</div>
+        29 January 2025<br>
+      <div class="tours-top-banner-info-title">Distance:</div>
+        2 miles / 3 km<br>
+      <div class="tours-top-banner-info-title">Time:</div>
+        1 hour 30 mins
+    </div>
+  </div>
+
+  <div id="whitespace"></div>
+  
+  <div class="writeup-block-for-text">
+    <p class="writeup-title barlow-condensed-semibold">A short walk through the Saltburn valley gardens, woods and to the pier.</p>
+    <div id="whitespace"></div>
+    <p class="writeup-text">Park for free by the woods, the first path into the woods is part of the Cleveland Way.  Then meander through the woods following the route below to get to the beck, then follow the beck north to the sea.
+    <br><br>
+    <a href="https://explore.osmaps.com/route/25271347/saltburn-pier?lat=54.583804&lon=-0.974799&zoom=14.9677&style=Leisure&type=2d&params=25271347&params=saltburn-pier" target="_blank"> 
+      <img src= "./images/yorkshire_coast_2025_01_saltburn_osroute.jpg" width = 100%>
+    </a>
+    <br><br>A selection of pics from the day, it was a lot blusterier than it looks!<br><br>
+    <img src= "./images/yorkshire_coast_2025_01_saltburn_profilepic.jpg" width = 100%>
+    <br><br>
+    <img src= "./images/yorkshire_coast_2025_01_saltburn_7.jpg" width = 100%>
+    <br><br>
+    <img src= "./images/yorkshire_coast_2025_01_saltburn_1.jpg" width = 100%>
+    <br><br>
+    <img src= "./images/yorkshire_coast_2025_01_saltburn_2.jpg" width = 100%>
+    <br><br>
+    <img src= "./images/yorkshire_coast_2025_01_saltburn_3.jpg" width = 100%>
+    <br><br>
+    <img src= "./images/yorkshire_coast_2025_01_saltburn_4.jpg" width = 100%>
+    <br><br>
+    <img src= "./images/yorkshire_coast_2025_01_saltburn_5.jpg" width = 100%>
+    <br><br>
+    <img src= "./images/yorkshire_coast_2025_01_saltburn_6.jpg" width = 100%>
+    <br><br>
+    </p>
+  </div>
+
+  <div id="whitespace"></div>
+  <hr />
+  <div id="whitespace"></div>
+  
+  <div id="tours-title">--   Other Yorkshire Coast Tours   --</div>
+
+  <div id="whitespace"></div>
+
+  <div class="tours-container">
+    <a href="./yorkshire_coast_2024_08_saltburn_trig_point.html">
+      <div class="tours-thumbnail-box tours-yorkshire_coast_2024_08_saltburn_trig_point">
+        <div class="tours-title">Saltburn trig point - August 2024</div>
+      </div>
+    </a>
+    <a href="./yorkshire_coast_2024_02_runswick_bay_to_staithes.html">
+      <div class="tours-thumbnail-box tours-yorkshire_coast_2024_02_runswick_bay_to_staithes">
+        <div class="tours-title">Runswick bay to Staithes - February 2024</div>
+      </div>
+    </a>
+  </div>
+      
+  <div id="whitespace"></div>
+        
+</body>
+
+</html>
+

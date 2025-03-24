@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiggy Tours</title>
+  <link rel="stylesheet" href="./style.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+  </script>
+  
+  <section id="mainbanner">
+  </section>
+  <div class="hero-image-wales">
+    <div class="hero-text">
+      <h1>Wales</h1>
+    </div>
+  </div>
+  
+  <div id="whitespace"></div>
+  <hr>
+  <div id="whitespace"></div>
+  
+  <div id="tours-title">--   Wales Tours   --</div>
+
+  <div id="whitespace"></div>
+
+  <div class="tours-container">
+    <a href="./wales_2024_09_monmouth_river_walk.html">
+      <div class="tours-thumbnail-box tours-wales_2024_09_monmouth_river_walk">
+        <div class="tours-title">Monmouth river walk - September 2024</div>
+      </div>
+    </a>
+    <a href="./wales_2024_06_devils_kitchen.html">
+      <div class="tours-thumbnail-box tours-wales_2024_06_devils_kitchen">
+        <div class="tours-title">Devils Kitchen mountain climbing - June 2024</div>
+      </div>
+    </a>
+    <a href="./wales_2024_06_porth_wen.html">
+      <div class="tours-thumbnail-box tours-wales_2024_06_porth_wen">
+        <div class="tours-title">Porth Wen - June 2024</div>
+      </div>
+    </a>
+    <a href="./wales_2024_06_aber_falls.html">
+      <div class="tours-thumbnail-box tours-wales_2024_06_aber_falls">
+        <div class="tours-title">Aber Falls - June 2024</div>
+      </div>
+    </a>
+    <a href="./wales_2023_09_monmouth.html">
+      <div class="tours-thumbnail-box tours-wales_2023_09_monmouth">
+        <div class="tours-title">Monmouth - September 2023</div>
+      </div>
+    </a>
+    <a href="./wales_2023_01_monmouth.html">
+      <div class="tours-thumbnail-box tours-wales_2023_01_monmouth">
+        <div class="tours-title">Monmouth - January 2023</div>
+      </div>
+    </a>
+    <a href="./wales_2021_10_elan_valley.html">
+      <div class="tours-thumbnail-box tours-wales_2021_10_elan_valley">
+        <div class="tours-title">Elan valley - 2016, 2018, 2019 and 2021</div>
+      </div>
+    </a>
+  </div>
+      
+  <div id="whitespace"></div>
+        
+</body>
+
+</html>
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiggy Tours</title>
+  <link rel="stylesheet" href="./style.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+  </script>
+  
+  <div class="tours-top-banner tours-lake_district_2022_07_priests_hole">
+    <div class="hero-text-2 barlow-condensed-semibold">An expedition to the priests hole</div>
+    <div class="tours-top-banner-info barlow-condensed-semibold">
+      <div class="tours-top-banner-info-title">Date:</div>
+        TBA July 2022<br>
+      <div class="tours-top-banner-info-title">Distance:</div>
+        TBA miles / TBA km<br>
+      <div class="tours-top-banner-info-title">Time:</div>
+        TBA hours TBA mins
+    </div>
+  </div>
+
+  <div id="whitespace"></div>
+  
+  <div class="writeup-block-for-text">
+    <p class="writeup-title barlow-condensed-semibold">Steep uphill to near the cave and onto the top of Dove Crag</p>
+    <div id="whitespace"></div>
+    <p class="writeup-text">Parking at the Brotherswater Inn, walking through the camp site, with a handy camp site shop.  Then gradually uphill for a while and then it gets steep.
+      <br><br>
+      Got to the top and had a Subway sandwich.
+      <br><br>
+      A little sketchy downhill and back along the other side of the valley, just a short distance across from where I climbed up.
+      <br><br>
+    </p>
+  </div>
+
+  <div id="whitespace"></div>
+  <hr />
+  <div id="whitespace"></div>
+  
+  <div id="tours-title">--   Other Lake District Tours   --</div>
+
+  <div id="whitespace"></div>
+
+  <div class="tours-container">
+    <a href="./lake_district_2023_04_iona_cottage.html">
+      <div class="tours-thumbnail-box tours-lake_district_2023_04_iona_cottage">
+        <div class="tours-title">A week at Iona cottage - April 2023</div>
+      </div>
+    </a>
+    <a href="./lake_district_2023_04_haweswater.html">
+      <div class="tours-thumbnail-box tours-lake_district_2023_04_haweswater">
+        <div class="tours-title">Haweswater meander - April 2023</div>
+      </div>
+    </a>
+    
+  </div>
+      
+  <div id="whitespace"></div>
+        
+</body>
+
+</html>
+

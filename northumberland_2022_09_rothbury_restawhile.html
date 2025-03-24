@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiggy Tours</title>
+  <link rel="stylesheet" href="./style.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+  </script>
+
+  <div class="tours-top-banner tours-northumberland_2022_09_rothbury_restawhile">
+    <div class="hero-text-2 barlow-condensed-semibold">A week at Rothbury</div>
+    <div class="tours-top-banner-info barlow-condensed-semibold">
+      <div class="tours-top-banner-info-title">Date:</div>
+        12 to 17 September 2022<br>
+      <div class="tours-top-banner-info-title">Distance:</div>
+        N/A<br>
+      <div class="tours-top-banner-info-title">Time:</div>
+        N/A
+    </div>
+  </div>
+
+  <div id="whitespace"></div>
+  
+  <div class="writeup-block-for-text">
+    <p class="writeup-title barlow-condensed-semibold">Restawhile Rothbury.</p>
+    <div id="whitespace"></div>
+    <p class="writeup-text">An unexpected week away to Northumberland with Ruby and her assistant/slave Kerry.
+    <br><br>Restawhile is a lovely little cottage.<br><br>
+    <img src= "./images/northumberland_2022_09_rothbury_restawhile_restawhile1.jpg" width = 100%>
+    <img src= "./images/northumberland_2022_09_rothbury_restawhile_restawhile2.jpg" width = 100%>
+    <img src= "./images/northumberland_2022_09_rothbury_restawhile_restawhile3.jpg" width = 100%>
+    <br><br>Ruby, the guest of honour.<br><br>
+    <img src= "./images/northumberland_2022_09_rothbury_restawhile_ruby.jpg" width = 100%>
+    <br><br>For me the week away was a working week so I had to do a little bit of computer coding.  Luckily I had an assistant to help me with the more tricky database code...
+    <br><br>
+    <img src= "./images/northumberland_2022_09_rothbury_restawhile_assistant.jpg" width = 100%>
+    <br><br>Though my assistant wasn't always happy when I had to leave to get supplies.
+    <br><br>
+    <img src= "./images/northumberland_2022_09_rothbury_restawhile_gate.jpg" width = 100%>
+    <br><br>A couple of pics taken whilst I was getting supplies.
+    <br><br>
+    <img src= "./images/northumberland_2022_09_rothbury_restawhile_river.jpg" width = 100%>
+    <img src= "./images/northumberland_2022_09_rothbury_restawhile_river2.jpg" width = 100%>
+    <br><br>We did get out for a short walk one day, taking in the views across the valley and of a Folly.
+    <br><br>
+    <img src= "./images/northumberland_2022_09_rothbury_restawhile_osroute.jpg" width = 100%>
+    <img src= "./images/northumberland_2022_09_rothbury_restawhile_view.jpg" width = 100%>
+    <img src= "./images/northumberland_2022_09_rothbury_restawhile_folly.jpg" width = 100%>
+  </p>
+  </div>
+
+  <div id="whitespace"></div>
+  <hr />
+  <div id="whitespace"></div>
+  
+  <div id="tours-title">--   Northumberland Tours   --</div>
+
+  <div id="whitespace"></div>
+
+  <div class="tours-container">
+    <a href="./northumberland_2021_09_castles_and_wall.html">
+      <div class="tours-thumbnail-box tours-northumberland_2021_09_castles_and_wall">
+        <div class="tours-title">Castles and a Fort - September 2021</div>
+      </div>
+    </a>
+    <a href="./northumberland_2019_08_alnwick_castle.html">
+      <div class="tours-thumbnail-box tours-northumberland_2019_08_alnwick_castle">
+        <div class="tours-title">Alnwick Castle - August 2019</div>
+      </div>
+    </a>
+    <a href="./northumberland_2019_06_bamburgh_castle.html">
+      <div class="tours-thumbnail-box tours-northumberland_2019_06_bamburgh_castle">
+        <div class="tours-title">Bamburgh Castle - June 2019</div>
+      </div>
+    </a>
+    <a href="./northumberland_2018_08_holy_island.html">
+      <div class="tours-thumbnail-box tours-northumberland_2018_08_holy_island">
+        <div class="tours-title">Holy Island - August 2018</div>
+      </div>
+    </a>
+    <a href="./northumberland_2018_08_belsay_hall.html">
+      <div class="tours-thumbnail-box tours-northumberland_2018_08_belsay_hall">
+        <div class="tours-title">Belsay Hall - August 2018</div>
+      </div>
+    </a>
+  </div>
+        
+</body>
+
+</html>
+

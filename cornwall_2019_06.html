@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiggy Tours</title>
+  <link rel="stylesheet" href="./style.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+  </script>
+
+  <div class="tours-top-banner tours-cornwall_2019_06">
+    <div class="hero-text-2 barlow-condensed-semibold">Cornwall 2019</div>
+    <div class="tours-top-banner-info barlow-condensed-semibold">
+      <div class="tours-top-banner-info-title">Date:</div>
+        28 September 2018<br>
+      <div class="tours-top-banner-info-title">Distance:</div>
+        TBA<br>
+      <div class="tours-top-banner-info-title">Time:</div>
+        TBA
+    </div>
+  </div>
+
+  <div id="whitespace"></div>
+  
+  <div class="writeup-block-for-text">
+    <p class="writeup-title barlow-condensed-semibold">Cornwall 2019.</p>
+    <div id="whitespace"></div>
+    <p class="writeup-text">Bolsover
+      <br><br>Tintagel.
+      <br><br>Port Isaac.
+      <br><br>Okehampton.
+      <br><br>Launceston.
+      <br><br>Cheddar Gorge.
+      <br><br>
+    </p>
+  </div>
+
+
+  <div id="whitespace"></div>
+  <hr />
+  <div id="whitespace"></div>
+  
+  <div id="tours-title">--   Other Cornwall Tour   --</div>
+
+  <div id="whitespace"></div>
+
+  <div class="tours-container">
+    <a href="./cornwall_2018_07.html">
+      <div class="tours-thumbnail-box tours-cornwall_2018_07">
+        <div class="tours-title">Cornwall Tour - June 2019</div>
+      </div>
+    </a>
+  </div>
+      
+  <div id="whitespace"></div>
+        
+</body>
+
+</html>
+

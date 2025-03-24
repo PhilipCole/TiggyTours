@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiggy Tours</title>
+  <link rel="stylesheet" href="./style.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+  </script>
+
+  <div class="tours-top-banner tours-northumberland_2018_08_belsay_hall">
+    <div class="hero-text-2 barlow-condensed-semibold">Belsay Hall</div>
+    <div class="tours-top-banner-info barlow-condensed-semibold">
+      <div class="tours-top-banner-info-title">Date:</div>
+        28 August 2018<br>
+      <div class="tours-top-banner-info-title">Distance:</div>
+        N/A<br>
+      <div class="tours-top-banner-info-title">Time:</div>
+        N/A
+    </div>
+  </div>
+
+  <div id="whitespace"></div>
+  
+  <div class="writeup-block-for-text">
+    <p class="writeup-title barlow-condensed-semibold">A day trip to Belsay Hall Castle and gardens.</p>
+    <div id="whitespace"></div>
+    <p class="writeup-text">English Heritage and just an hour oop north.  Here's an idea of what the are looks like from it's own model.
+      <br><br>
+      <img src= "./images/northumberland_2018_08_belsay_hall_1.jpg" width = 100%>
+      <br><br>Here are a few more pics taken on the trip.<br><br>
+      <img src= "./images/northumberland_2018_08_belsay_hall_2.jpg" width = 100%>
+      <img src= "./images/northumberland_2018_08_belsay_hall_3.jpg" width = 100%>
+      <img src= "./images/northumberland_2018_08_belsay_hall_4.jpg" width = 100%>
+      <img src= "./images/northumberland_2018_08_belsay_hall_5.jpg" width = 100%>
+      <br><br>And here are some pics of the gardens.<br><br>
+      <img src= "./images/northumberland_2018_08_belsay_hall_gardens1.jpg" width = 100%>
+      <img src= "./images/northumberland_2018_08_belsay_hall_gardens2.jpg" width = 100%>
+      <img src= "./images/northumberland_2018_08_belsay_hall_gardens3.jpg" width = 100%>
+    </p>
+  </div>
+
+  <div id="whitespace"></div>
+  <hr />
+  <div id="whitespace"></div>
+  
+  <div id="tours-title">--   Northumberland Tours   --</div>
+
+  <div id="whitespace"></div>
+
+  <div class="tours-container">
+    <a href="./northumberland_2022_09_rothbury_restawhile.html">
+      <div class="tours-thumbnail-box tours-northumberland_2022_09_rothbury_restawhile">
+        <div class="tours-title">A week in rothbury - September 2022</div>
+      </div>
+    </a>
+    <a href="./northumberland_2021_09_castles_and_wall.html">
+      <div class="tours-thumbnail-box tours-northumberland_2021_09_castles_and_wall">
+        <div class="tours-title">Castles and a Fort - September 2021</div>
+      </div>
+    </a>
+    <a href="./northumberland_2019_08_alnwick_castle.html">
+      <div class="tours-thumbnail-box tours-northumberland_2019_08_alnwick_castle">
+        <div class="tours-title">Alnwick Castle - August 2019</div>
+      </div>
+    </a>
+    <a href="./northumberland_2019_06_bamburgh_castle.html">
+      <div class="tours-thumbnail-box tours-northumberland_2019_06_bamburgh_castle">
+        <div class="tours-title">Bamburgh Castle - June 2019</div>
+      </div>
+    </a>
+    <a href="./northumberland_2018_08_holy_island.html">
+      <div class="tours-thumbnail-box tours-northumberland_2018_08_holy_island">
+        <div class="tours-title">Holy Island - August 2018</div>
+      </div>
+    </a>
+  </div>
+        
+</body>
+
+</html>
+

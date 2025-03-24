@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiggy Tours</title>
+  <link rel="stylesheet" href="./style.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+  </script>
+  
+  <div class="tours-top-banner tours-northumberland_2019_08_alnwick_castle">
+    <div class="hero-text-2 barlow-condensed-semibold">Alnwick Castle</div>
+    <div class="tours-top-banner-info barlow-condensed-semibold">
+      <div class="tours-top-banner-info-title">Date:</div>
+        3 August 2019<br>
+      <div class="tours-top-banner-info-title">Distance:</div>
+        N/A<br>
+      <div class="tours-top-banner-info-title">Time:</div>
+        N/A
+    </div>
+  </div>
+
+  <div id="whitespace"></div>
+  
+  <div class="writeup-block-for-text">
+    <p class="writeup-title barlow-condensed-semibold">Alnwick Castle.</p>
+    <div id="whitespace"></div>
+    <p class="writeup-text">Another tour up north, inland this time to Alnwick Castle.  Very popular due to the Gardens and Harry Potter.
+      <br><br>
+      <img src= "./images/northumberland_2019_08_alnwick_castle_1.jpg" width = 100%>
+      <img src= "./images/northumberland_2019_08_alnwick_castle_2.jpg" width = 100%>
+      <img src= "./images/northumberland_2019_08_alnwick_castle_3.jpg" width = 100%>
+      <br><br>It just so happened that the time we visisted a medieval jousting competititon was going on.<br><br>
+      <img src= "./images/northumberland_2019_08_alnwick_castle_joust_1.jpg" width = 100%>
+      <br><br>With real horses and real knights...<br><br>
+      <img src= "./images/northumberland_2019_08_alnwick_castle_joust_2.jpg" width = 100%>
+      <img src= "./images/northumberland_2019_08_alnwick_castle_joust_3.jpg" width = 100%>
+      <br><br>...and real injuries.  One competitor ended up in an ambulance, possibly spending the "knight" in hospital?<br><br>
+      <img src= "./images/northumberland_2019_08_alnwick_castle_joust_4.jpg" width = 100%>
+    </p>
+  </div>
+
+  <div id="whitespace"></div>
+  <hr />
+  <div id="whitespace"></div>
+  
+  <div id="tours-title">--   Other Castle Tours   --</div>
+
+  <div id="whitespace"></div>
+
+  <div class="tours-container">
+    <a href="./yorkshire_dales_2024_08_aysgarth_falls.html">
+      <div class="tours-thumbnail-box tours-yorkshire_dales_2024_08_aysgarth_falls">
+        <div class="tours-title">Castle Bolton to Aysgarth Falls and back</div>
+      </div>
+    </a>
+    <a href="./yorkshire_dales_2024_05_middleham_castle.html">
+      <div class="tours-thumbnail-box tours-yorkshire_dales_2024_05_middleham_castle">
+        <div class="tours-title">Middleham Castle - wensleydale - May 2024</div>
+      </div>
+    </a>
+    <a href="./northumberland_2021_09_castles_and_wall.html">
+      <div class="tours-thumbnail-box tours-northumberland_2021_09_castles_and_wall">
+        <div class="tours-title">Castles and a Fort - September 2021</div>
+      </div>
+    </a>
+    <a href="./northumberland_2019_06_bamburgh_castle.html">
+      <div class="tours-thumbnail-box tours-northumberland_2019_06_bamburgh_castle">
+        <div class="tours-title">Bamburgh Castle - June 2019</div>
+      </div>
+    </a>
+    <a href="./north_york_moors_2018_07_helmsley_castle.html">
+      <div class="tours-thumbnail-box tours-north_york_moors_2018_07_helmsley_castle">
+        <div class="tours-title">Helmsley Castle - July 2018</div>
+      </div>
+    </a>
+    <a href="./yorkshire_dales_2022_05_easby_abbey.html">
+      <div class="tours-thumbnail-box tours-yorkshire_dales_2022_05_easby_abbey">
+        <div class="tours-title">Easby abbey and Richmond castle - Richmondshire - May 2022</div>
+      </div>
+    </a>
+    <a href="./yorkshire_dales_2023_07_egglestone_abbey.html">
+      <div class="tours-thumbnail-box tours-yorkshire_dales_2023_07_egglestone_abbey">
+        <div class="tours-title">Egglestone Abbey and BArnard Castle - July 2023</div>
+      </div>
+    </a>
+  </div>
+        
+</body>
+
+</html>
+
