@@ -26,4 +26,3 @@ document.write('<div class="navbar">\
     <a href="./durham_2021_05_hurworth_burn_reservoir.html">DURHAM</a>\
     <a href="./teesdale_2018_09_high_force.html">TEESDALE</a>\
     </div></div></div>');
-    
