@@ -78,7 +78,7 @@
   .hero-text {
     color: white;
     font-family: "Barlow Condensed";
-    font-size: 50px;
+    font-size: 45px;
     padding: 5%;
     text-align: center;
     text-transform: uppercase;
@@ -102,7 +102,7 @@
     text-align: center ;
     height:50px;
     width: 100%;
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Barlow Condensed";
     font-weight: bold;
     text-transform: uppercase;
@@ -731,7 +731,7 @@ li {
 }
 
 .imagecarousel {
-  animation: bannermove 40s linear infinite;
+  animation: bannermove 30s linear infinite;
 }
 
 @keyframes bannermove {
