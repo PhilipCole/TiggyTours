@@ -152,6 +152,22 @@
     background-size: cover ;
     height: 350px;
   }
+  .tours-top-banner {
+    height: 350px;
+    background-size: cover;
+  }
+  .tours-top-banner-info{
+    display: inline-block;
+    font-family: "Barlow Condensed";
+    color: rgb(14, 126, 126);
+    background-color: rgba(238, 238, 238, 0.884);
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 5%;
+    padding: 10px 10px 15px 15px;
+    font-size: 14px;
+    width: 150px;
+  }
 }
 
 
@@ -300,6 +316,26 @@ h1
   background-attachment: fixed;
   background-position: center 100%;
   overflow: hidden;
+}
+.tours-top-banner {
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.tours-top-banner-info{
+  display: inline-block;
+  font-family: "Barlow Condensed";
+  color: rgb(14, 126, 126);
+  background-color: rgba(238, 238, 238, 0.884);
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 5%;
+  padding: 10px 10px 15px 15px;
+  font-size: 24px;
+  width: 300px;
 }
 }
 
@@ -452,13 +488,6 @@ li {
   background-repeat: no-repeat;
   text-align: center;
 }
-.tours-top-banner {
-  height: 90vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow: hidden;
-}
 
 .tours-title {
   font-family: "Barlow Condensed";
@@ -470,19 +499,6 @@ li {
   padding-right: 5px;
   padding-bottom: 5px;
   font-size: 24px;
-}
-
-.tours-top-banner-info{
-  display: inline-block;
-  font-family: "Barlow Condensed";
-  color: rgb(14, 126, 126);
-  background-color: rgba(238, 238, 238, 0.884);
-  text-align: left;
-  text-transform: uppercase;
-  margin-left: 5%;
-  padding: 10px 10px 15px 15px;
-  font-size: 24px;
-  width: 300px;
 }
 
 .tours-top-banner-info-title{
