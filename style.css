@@ -78,19 +78,16 @@
   .hero-text {
     color: white;
     font-family: "Barlow Condensed";
-    font-size: 45px;
-    padding: 5%;
+    font-size: 35px;
+    padding: 10%;
     text-align: center;
     text-transform: uppercase;
   }
   .hero-image-home {
     background-image: url("./images/tiggy_profile_1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center 60%;
-    overflow: hidden;
-}
+    background-size: cover ;
+    height: 350px;
+  }
 .writeup-block-for-text{
   display: block;
   margin-left: 10%;
@@ -114,6 +111,46 @@
     padding: 5% 5% 1% 5%;
     text-align: left;
     text-transform: uppercase;
+  }
+  .hero-image-yorkshire-dales {
+    background-image: url("./images/yorkshire_dales.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-north-york-moors {
+    background-image: url("./images/north_york_moors.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-yorkshire-coast {
+    background-image: url("./images/yorkshire_coast.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-lake-district {
+    background-image: url("./images/lake_district.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-peak-district {
+    background-image: url("./images/peak_district.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-wales {
+    background-image: url("./images/wales.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-northumberland {
+    background-image: url("./images/northumberland.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-cornwall {
+    background-image: url("./images/cornwall.jpg");
+    background-size: cover ;
+    height: 350px;
   }
 }
 
@@ -181,21 +218,7 @@ h1
     text-align: left;
     text-transform: uppercase;
   }
-}
-
-
-#whitespace {
-  background-color: white;
-  height:30px;
-  width: 100%;
-}
-#whitespace-short {
-  background-color: white;
-  height:10px;
-  width: 100%;
-}
-
-
+  
 .hero-image-home {
   width: 100%;
   height: 700px;
@@ -278,6 +301,20 @@ h1
   background-position: center 100%;
   overflow: hidden;
 }
+}
+
+
+#whitespace {
+  background-color: white;
+  height:30px;
+  width: 100%;
+}
+#whitespace-short {
+  background-color: white;
+  height:10px;
+  width: 100%;
+}
+
 
 li {
   list-style: none;
