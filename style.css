@@ -10,9 +10,218 @@
   color: #EEEEEE;
 }
 
-@media (max-width: 1500px)
+@media (min-width: 901px) and (max-width: 1500px)
 {
   .top-menu-container{display:none;}
+  .navbar{display:none;}
+
+  .navbar-laptop {
+    overflow: hidden;
+    background-color: black;
+    font-family: "Oswald";
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 70px;
+    width: 100%;
+  }
+  
+  .navbar-laptop a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+  
+  .dropdown-laptop {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown-laptop .dropbtn-laptop {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: inherit;  
+    font-weight: inherit;
+    margin: 0;
+  }
+  .navbar-laptop a:hover, .dropdown-laptop:hover .dropbtn-laptop, .dropbtn-laptop:focus {
+    background-color: red;
+  }
+  
+  .dropdown-laptop-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-laptop-content a {
+    float: none;
+    color: black;
+    padding: 9px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-laptop-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .hero-text {
+    color: white;
+    font-family: "Barlow Condensed";
+    font-size: 70px;
+    padding: 12%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .hero-text-2 {
+    color: white;
+    font: "barlow-condensed-semibold";
+    font-size: 80px;
+    padding: 5% 5% 1% 5%;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .hero-image-home {
+    width: 100%;
+    height: 550px;
+    background-image: url("./images/tiggy_profile_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 60%;
+    overflow: hidden;
+  }
+  .hero-image-yorkshire-dales {
+    height: 550px;
+    background-image: url("./images/yorkshire_dales.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 97%;
+    overflow: hidden;
+  }
+  .hero-image-north-york-moors {
+    height: 550px;
+    background-image: url("./images/north_york_moors.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 65%;
+    overflow: hidden;
+  }
+  .hero-image-yorkshire-coast {
+    height: 550px;
+    background-image: url("./images/yorkshire_coast.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 55%;
+    overflow: hidden;
+  }
+  .hero-image-lake-district {
+    height: 550px;
+    background-image: url("./images/lake_district.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 60%;
+    overflow: hidden;
+  }
+  .hero-image-peak-district {
+    height: 550px;
+    background-image: url("./images/peak_district.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 40%;
+    overflow: hidden;
+  }
+  .hero-image-wales {
+    height: 550px;
+    background-image: url("./images/wales.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 91%;
+    overflow: hidden;
+  }
+  .hero-image-northumberland {
+    height: 550px;
+    background-image: url("./images/northumberland.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 60%;
+    overflow: hidden;
+  }
+  .hero-image-cornwall {
+    height: 550px;
+    background-image: url("./images/cornwall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 100%;
+    overflow: hidden;
+  }
+  #tours-title {
+    background-color: white;
+    color: #1e2024;
+    text-align: center ;
+    height:50px;
+    width: 100%;
+    font-size: 50px;
+    font-family: "Barlow Condensed";
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .writeup-block-for-text{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+    .tours-top-banner {
+      height: 500px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      overflow: hidden;
+    }
+    
+    .tours-top-banner-info{
+      display: inline-block;
+      font-family: "Barlow Condensed";
+      color: rgb(14, 126, 126);
+      background-color: rgba(238, 238, 238, 0.884);
+      text-align: left;
+      text-transform: uppercase;
+      margin-left: 5%;
+      padding: 10px 10px 15px 15px;
+      font-size: 24px;
+      width: 300px;
+    }
+}
+
+
+
+@media only screen and (max-width: 900px)
+{
+  .top-menu-container{display:none;}
+  .navbar-laptop{display:none;}
   .navbar {
     overflow: hidden;
     background-color: black;
@@ -78,7 +287,7 @@
   .hero-text {
     color: white;
     font-family: "Barlow Condensed";
-    font-size: 35px;
+    font-size: 30px;
     padding: 10%;
     text-align: center;
     text-transform: uppercase;
@@ -174,7 +383,8 @@
 @media (min-width: 1501px)
 {
   .navbar{display:none;}
-  
+  .navbar-laptop{display:none;}
+
 .writeup-block-for-text{
   display: block;
   margin-left: 25%;
@@ -795,3 +1005,5 @@ li {
     transform: translateX(-50%);
   }
 }
+
+
