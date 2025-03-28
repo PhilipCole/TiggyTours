@@ -21,7 +21,7 @@
     font-family: "Oswald";
     font-weight: bold;
     font-size: 16px;
-    padding-left: 70px;
+    padding-left: 30px;
     width: 100%;
   }
   
@@ -399,7 +399,7 @@ h1
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Oswald";
     font-weight: bold;
     padding: 9px;
@@ -699,6 +699,15 @@ li {
   text-align: center;
 }
 
+.tours-thumbnail-box-small{
+  width: 300px;
+  height: 187px;
+  padding: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
 .tours-title {
   font-family: "Barlow Condensed";
   color: #303236;
@@ -709,6 +718,18 @@ li {
   padding-right: 5px;
   padding-bottom: 5px;
   font-size: 24px;
+}
+
+.tours-title-small {
+  font-family: "Barlow Condensed";
+  color: #303236;
+  background-color: rgba(238, 238, 238, 0.884);
+  text-align: left;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
 }
 
 .tours-top-banner-info-title{
@@ -1006,4 +1027,43 @@ li {
   }
 }
 
+#myInput {
+  align-items: center;
+  background-image: url('./images/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 14px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 300px; /* Full-width */
+  font-family: "Barlow Condensed";
+  font-size: 22px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 2px solid #ddd; /* Add a grey border */
+  margin-bottom: 30px; /* Add some space below the input */
+}
 
+#myUL {
+  /* Remove default list styling */
+  background-color: white;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0%;
+  list-style-type: none;
+  margin: 0;
+}
+
+#myUL li a {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0%;
+  list-style-type: none;
+  margin: 0;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px; /* Add some padding */
+  gap: 5px;
+  text-decoration: none; /* Remove default text underline */
+  color: black; /* Add a black text color */
+  
+}

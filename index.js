@@ -1,4 +1,6 @@
-document.write('<div class="top-menu-container">\'<li>\<a href="./index.html">HOME</a>\</li>\
+document.write('<div class="top-menu-container">\'\
+        <li>\<a href="./search_screen.html"><i class="fa fa-search"></i></a>\</li>\
+        <li>\<a href="./index.html">HOME</a>\</li>\
         <li>\<a href="./yorkshire-dales.html">YORKSHIRE DALES</a>\</li>\
         <li>\<a href="./north-york-moors.html">NORTH YORK MOORS</a>\</li>\
         <li>\<a href="./yorkshire-coast.html">YORKSHIRE COAST</a>\</li>\
@@ -12,8 +14,9 @@ document.write('<div class="top-menu-container">\'<li>\<a href="./index.html">HO
         <li>\""\</li>\</div>');
 
 document.write('<div class="navbar">\
-    <div class="dropdown">\
-    <button class="dropbtn" onclick="myFunction()">TOURS<i class="fa fa-caret-down"></i></button>\
+    <li>\<a href="./search_screen.html"><i class="fa fa-search"></i></a>\</li>\
+        <div class="dropdown">\
+    <button class="dropbtn" onclick="myFunction()">TOURS <i class="fa fa-caret-down"></i></button>\
     <div class="dropdown-content" id="myDropdown">\
     <a href="./index.html">HOME</a>\
     <a href="./yorkshire-dales.html">YORKSHIRE DALES</a>\
@@ -28,6 +31,7 @@ document.write('<div class="navbar">\
     </div></div></div>');
 
     document.write('<div class="navbar-laptop">\
+        <li>\<a href="./search_screen.html"><i class="fa fa-search"></i></a>\</li>\
         <a href="./index.html">HOME</a>\
         <a href="./yorkshire-dales.html">YORKSHIRE DALES</a>\
         <a href="./north-york-moors.html">NORTH YORK MOORS</a>\
@@ -35,7 +39,7 @@ document.write('<div class="navbar">\
         <a href="./lake-district.html">LAKE DISTRICT</a>\
         <a href="./wales.html">WALES</a>\
         <div class="dropdown-laptop">\
-        <button class="dropbtn-laptop" onclick="myFunction2()">OTHER<i class="fa fa-caret-down"></i></button>\
+        <button class="dropbtn-laptop" onclick="myFunction2()">OTHER <i class="fa fa-caret-down"></i></button>\
         <div class="dropdown-laptop-content" id="myDropdown2">\
         <a href="./cornwall.html">CORNWALL</a>\
         <a href="./northumberland.html">NORTHUMBERLAND</a>\
