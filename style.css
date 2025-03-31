@@ -95,6 +95,7 @@
     padding: 5% 5% 1% 5%;
     text-align: left;
     text-transform: uppercase;
+    text-shadow: 0 1px black;
   }
   .hero-image-home {
     width: 100%;
@@ -320,6 +321,7 @@
     padding: 5% 5% 1% 5%;
     text-align: left;
     text-transform: uppercase;
+    text-shadow: 0 1px black;
   }
   .hero-image-yorkshire-dales {
     background-image: url("./images/yorkshire_dales.jpg");
@@ -443,6 +445,7 @@ h1
     padding: 5% 5% 1% 5%;
     text-align: left;
     text-transform: uppercase;
+    text-shadow: 0 1px black;
   }
   
 .hero-image-home {
