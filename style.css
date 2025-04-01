@@ -87,6 +87,7 @@
     padding: 12%;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 0 2px black;
   }
   .hero-text-2 {
     color: white;
@@ -292,6 +293,7 @@
     padding: 10%;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 0 2px black;
   }
   .hero-image-home {
     background-image: url("./images/tiggy_profile_1.jpg");
@@ -417,6 +419,7 @@ h1
     padding: 5%;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 0 2px black;
   }
 
   .tours-container {
