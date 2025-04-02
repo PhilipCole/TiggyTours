@@ -377,9 +377,9 @@
     text-align: left;
     text-transform: uppercase;
     margin-left: 5%;
-    padding: 10px 10px 15px 15px;
-    font-size: 14px;
-    width: 150px;
+    padding: 1px 5px 6px 5px;
+    font-size: 18px;
+    width: 180px;
   }
 }
 
@@ -863,6 +863,14 @@ li {
 }
 .tours-wales_2024_06_porth_wen {
   background-image: url("./images/wales_2024_06_porth_wen_profilepic.jpg");
+  background-position: center 95%;
+}
+.tours-wales_2024_06_maes_yr_hendre_cottage {
+  background-image: url("./images/wales_2024_06_maes_yr_hendre_cottage_profilepic.jpg");
+  background-position: center 95%;
+}
+.tours-wales_2024_06_betws_y_coed_river_walk {
+  background-image: url("./images/wales_2024_06_betws_y_coed_river_walk_profilepic.jpg");
   background-position: center 95%;
 }
 .tours-wales_2024_06_aber_falls {
