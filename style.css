@@ -828,6 +828,10 @@ li {
   background-image: url("./images/yorkshire_dales_2024_05_middleham_castle_profilepic.jpg");
   background-position: center center;
 }
+.tours-yorkshire_dales_2022_08_the_himalayan_garden {
+  background-image: url("./images/yorkshire_dales_2022_08_the_himalayan_garden_profilepic.jpg");
+  background-position: center center;
+}
 
 
 
@@ -871,6 +875,10 @@ li {
 }
 .tours-wales_2024_06_betws_y_coed_river_walk {
   background-image: url("./images/wales_2024_06_betws_y_coed_river_walk_profilepic.jpg");
+  background-position: center 95%;
+}
+.tours-wales_2024_06_bodnant_garden {
+  background-image: url("./images/wales_2024_06_bodnant_garden_profilepic.jpg");
   background-position: center 95%;
 }
 .tours-wales_2024_06_aber_falls {
