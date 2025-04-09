@@ -960,6 +960,13 @@ li {
   background-image: url("./images/north_york_moors_2018_07_helmsley_castle_profilepic.jpg");
   background-position: center 35%;
 }
+.tours-north_york_moors_2024_07_mount_grace_priory {
+  background-image: url("./images/north_york_moors_2024_07_mount_grace_priory_profilepic.jpg");
+  background-position: center 35%;
+}
+
+
+
 
 .tours-lake_district_2023_04_iona_cottage {
   background-image: url("./images/lake_district_2023_04_iona_cottage_profilepic.jpg");
@@ -1012,6 +1019,10 @@ li {
 }
 .tours-cornwall_2019_06 {
   background-image: url("./images/cornwall_2019_06_profilepic.jpg");
+  background-position: center center;
+}
+.tours-cornwall_2018_07_edenproject {
+  background-image: url("./images/cornwall_2018_07_edenproject_profilepic.jpg");
   background-position: center center;
 }
 
