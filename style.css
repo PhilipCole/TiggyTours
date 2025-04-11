@@ -173,7 +173,7 @@
   }
   .hero-image-cornwall {
     height: 550px;
-    background-image: url("./images/cornwall.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744400783/cornwall_n2anz6.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -361,7 +361,7 @@
     height: 350px;
   }
   .hero-image-cornwall {
-    background-image: url("./images/cornwall.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744400783/cornwall_n2anz6.jpg");
     background-size: cover ;
     height: 350px;
   }
@@ -526,7 +526,7 @@ h1
 }
 .hero-image-cornwall {
   height: 700px;
-  background-image: url("./images/cornwall.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744400783/cornwall_n2anz6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -829,7 +829,7 @@ li {
   background-position: center center;
 }
 .tours-yorkshire_dales_2022_08_the_himalayan_garden {
-  background-image: url("./images/yorkshire_dales_2022_08_the_himalayan_garden_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744393976/yorkshire_dales_2022_08_the_himalayan_garden_profilepic_wmdsej.jpg");
   background-position: center center;
 }
 
@@ -1011,20 +1011,20 @@ li {
 
 
 .tours-teesdale_2018_09_high_force {
-  background-image: url("./images/teesdale_2018_09_high_force_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744387283/teesdale_2018_09_high_force_profilepic_ttien4.jpg");
   background-position: center center;
 }
 
 .tours-cornwall_2018_07 {
-  background-image: url("./images/cornwall_2018_07_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744400838/cornwall_2018_07_profilepic_sc7ief.jpg");
   background-position: center 15%;
 }
 .tours-cornwall_2019_06 {
-  background-image: url("./images/cornwall_2019_06_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744400871/cornwall_2019_06_profilepic_qtjttd.jpg");
   background-position: center center;
 }
 .tours-cornwall_2018_07_edenproject {
-  background-image: url("./images/cornwall_2018_07_edenproject_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744400834/cornwall_2018_07_edenproject_profilepic_betiy3.jpg");
   background-position: center center;
 }
 
