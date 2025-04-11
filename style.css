@@ -965,8 +965,10 @@ li {
   background-position: center 35%;
 }
 
-
-
+.tours-teesside_2025_04_eston_nab {
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744363701/teesside_2025_04_eston_nab_profilepic_hr3xqh.jpg");
+  background-position: center 55%;
+}
 
 .tours-lake_district_2023_04_iona_cottage {
   background-image: url("./images/lake_district_2023_04_iona_cottage_profilepic.jpg");
