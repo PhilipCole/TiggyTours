@@ -137,7 +137,7 @@
   }
   .hero-image-lake-district {
     height: 550px;
-    background-image: url("./images/lake_district.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744536533/lake_district_cawcoa.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -341,7 +341,7 @@
     height: 350px;
   }
   .hero-image-lake-district {
-    background-image: url("./images/lake_district.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744536533/lake_district_cawcoa.jpg");
     background-size: cover ;
     height: 350px;
   }
@@ -490,7 +490,7 @@ h1
 }
 .hero-image-lake-district {
   height: 700px;
-  background-image: url("./images/lake_district.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744536533/lake_district_cawcoa.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -971,15 +971,15 @@ li {
 }
 
 .tours-lake_district_2023_04_iona_cottage {
-  background-image: url("./images/lake_district_2023_04_iona_cottage_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744536546/lake_district_2023_04_iona_cottage_profilepic_ifnisp.jpg");
   background-position: center center;
 }
 .tours-lake_district_2022_07_priests_hole {
-  background-image: url("./images/lake_district_2022_07_priests_hole_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744536534/lake_district_2022_07_priests_hole_profilepic_f3ngwu.jpg");
   background-position: center 5%;
 }
 .tours-lake_district_2023_04_haweswater {
-  background-image: url("./images/lake_district_2023_04_haweswater_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744536539/lake_district_2023_04_haweswater_profilepic_e6ex7y.jpg");
   background-position: center 5%;
 }
 
