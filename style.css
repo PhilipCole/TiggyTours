@@ -146,7 +146,7 @@
   }
   .hero-image-peak-district {
     height: 550px;
-    background-image: url("./images/peak_district.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744548820/peak_district_ifvkth.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -346,7 +346,7 @@
     height: 350px;
   }
   .hero-image-peak-district {
-    background-image: url("./images/peak_district.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744548820/peak_district_ifvkth.jpg");
     background-size: cover ;
     height: 350px;
   }
@@ -499,7 +499,7 @@ h1
 }
 .hero-image-peak-district {
   height: 700px;
-  background-image: url("./images/peak_district.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744548820/peak_district_ifvkth.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -853,7 +853,7 @@ li {
 }
 
 .tours-peak_district_2024_08_bomber {
-  background-image: url("./images/peak_district_2024_08_bomber_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744542672/north_york_moors_2024_08_lordstones_peaks_profilepic_e1twpf.jpg");
   background-position: center center;
 }
 
