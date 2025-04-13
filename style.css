@@ -164,7 +164,7 @@
   }
   .hero-image-northumberland {
     height: 550px;
-    background-image: url("./images/northumberland.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744547445/northumberland_lb1acr.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -356,7 +356,7 @@
     height: 350px;
   }
   .hero-image-northumberland {
-    background-image: url("./images/northumberland.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744547445/northumberland_lb1acr.jpg");
     background-size: cover ;
     height: 350px;
   }
@@ -517,7 +517,7 @@ h1
 }
 .hero-image-northumberland {
   height: 700px;
-  background-image: url("./images/northumberland.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744547445/northumberland_lb1acr.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -985,27 +985,27 @@ li {
 
 
 .tours-northumberland_2022_09_rothbury_restawhile {
-  background-image: url("./images/northumberland_2022_09_rothbury_restawhile_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744547482/northumberland_2022_09_rothbury_restawhile_profilepic_moqftm.jpg");
   background-position: center center;
 }
 .tours-northumberland_2021_09_castles_and_wall {
-  background-image: url("./images/northumberland_2021_09_castles_and_wall_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744547477/northumberland_2021_09_castles_and_wall_profilepic_rlbsli.jpg");
   background-position: center 20%;
 }
 .tours-northumberland_2018_08_holy_island {
-  background-image: url("./images/northumberland_2018_08_holy_island_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744547458/northumberland_2018_08_holy_island_profilepic_hp1ar2.jpg");
   background-position: center 1%;
 }
 .tours-northumberland_2018_08_belsay_hall {
-  background-image: url("./images/northumberland_2018_08_belsay_hall_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744547451/northumberland_2018_08_belsay_hall_profilepic_p7cg9b.jpg");
   background-position: center 60%;
 }
 .tours-northumberland_2019_06_bamburgh_castle {
-  background-image: url("./images/northumberland_2019_06_bamburgh_castle_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744547466/northumberland_2019_06_bamburgh_castle_profilepic_izcqod.jpg");
   background-position: center 40%;
 }
 .tours-northumberland_2019_08_alnwick_castle {
-  background-image: url("./images/northumberland_2019_08_alnwick_castle_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744547471/northumberland_2019_08_alnwick_castle_profilepic_fjmknh.jpg");
   background-position: center 40%;
 }
 
