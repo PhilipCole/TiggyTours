@@ -101,7 +101,7 @@
   .hero-image-home {
     width: 100%;
     height: 550px;
-    background-image: url("./images/tiggy_profile_1.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744556563/tiggy_profile_1_bnblhj.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -110,7 +110,7 @@
   }
   .hero-image-yorkshire-dales {
     height: 550px;
-    background-image: url("./images/yorkshire_dales.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744569598/yorkshire_dales_fv0iih.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -119,7 +119,7 @@
   }
   .hero-image-north-york-moors {
     height: 550px;
-    background-image: url("./images/north_york_moors.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744542628/north_york_moors_yoxyqz.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -128,7 +128,7 @@
   }
   .hero-image-yorkshire-coast {
     height: 550px;
-    background-image: url("./images/yorkshire_coast.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744568704/yorkshire_coast_z5hotr.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -296,7 +296,7 @@
     text-shadow: 0 2px black;
   }
   .hero-image-home {
-    background-image: url("./images/tiggy_profile_1.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744556563/tiggy_profile_1_bnblhj.jpg");
     background-size: cover ;
     height: 350px;
   }
@@ -326,17 +326,17 @@
     text-shadow: 0 2px black;
   }
   .hero-image-yorkshire-dales {
-    background-image: url("./images/yorkshire_dales.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744569598/yorkshire_dales_fv0iih.jpg");
     background-size: cover ;
     height: 350px;
   }
   .hero-image-north-york-moors {
-    background-image: url("./images/north_york_moors.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744542628/north_york_moors_yoxyqz.jpg");
     background-size: cover ;
     height: 350px;
   }
   .hero-image-yorkshire-coast {
-    background-image: url("./images/yorkshire_coast.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744568704/yorkshire_coast_z5hotr.jpg");
     background-size: cover ;
     height: 350px;
   }
@@ -454,7 +454,7 @@ h1
 .hero-image-home {
   width: 100%;
   height: 700px;
-  background-image: url("./images/tiggy_profile_1.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744556563/tiggy_profile_1_bnblhj.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -463,7 +463,7 @@ h1
 }
 .hero-image-yorkshire-dales {
   height: 700px;
-  background-image: url("./images/yorkshire_dales.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744569598/yorkshire_dales_fv0iih.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -472,7 +472,7 @@ h1
 }
 .hero-image-north-york-moors {
   height: 700px;
-  background-image: url("./images/north_york_moors.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744542628/north_york_moors_yoxyqz.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -481,7 +481,7 @@ h1
 }
 .hero-image-yorkshire-coast {
   height: 700px;
-  background-image: url("./images/yorkshire_coast.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744568704/yorkshire_coast_z5hotr.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -813,7 +813,7 @@ li {
   background-position: center center;
 }
 .tours-yorkshire_dales_2019_08_fountains_abbey {
-  background-image: url("./images/yorkshire_dales_2019_08_fountains_abbey_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744569610/yorkshire_dales_2019_08_fountains_abbey_profilepic_vpmbfq.jpg");
   background-position: center center;
 }
 .tours-yorkshire_dales_2019_09_white_scar_cave {
@@ -821,7 +821,7 @@ li {
   background-position: center center;
 }
 .tours-yorkshire_dales_2019_09_buttertubs {
-  background-image: url("./images/yorkshire_dales_2019_09_buttertubs_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744569613/yorkshire_dales_2019_09_buttertubs_profilepic_xyqk9z.jpg");
   background-position: center center;
 }
 .tours-yorkshire_dales_2024_05_middleham_castle {
@@ -836,19 +836,19 @@ li {
 
 
 .tours-yorkshire_coast_2025_01_saltburn {
-  background-image: url("./images/yorkshire_coast_2025_01_saltburn_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744568716/yorkshire_coast_2025_01_saltburn_profilepic_zr9dhi.jpg");
   background-position: center center;
 }
 .tours-yorkshire_coast_2024_02_runswick_bay_to_staithes {
-  background-image: url("./images/yorkshire_coast_2024_02_runswick_bay_to_staithes_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744568707/yorkshire_coast_2024_02_runswick_bay_to_staithes_profilepic_s6m1se.jpg");
   background-position: center center;
 }
 .tours-yorkshire_coast_2024_08_saltburn_trig_point {
-  background-image: url("./images/yorkshire_coast_2024_08_saltburn_trig_point_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744568708/yorkshire_coast_2024_08_saltburn_trig_point_profilepic_xkzsf9.jpg");
   background-position: center center;
 }
 .tours-yorkshire_coast_2023_02_kettleness {
-  background-image: url("./images/yorkshire_coast_2023_02_kettleness_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744568706/yorkshire_coast_2023_02_kettleness_profilepic_wfapx8.jpg");
   background-position: center center;
 }
 
