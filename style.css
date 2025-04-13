@@ -155,7 +155,7 @@
   }
   .hero-image-wales {
     height: 550px;
-    background-image: url("./images/wales.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565823/wales_drrq7d.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -351,7 +351,7 @@
     height: 350px;
   }
   .hero-image-wales {
-    background-image: url("./images/wales.jpg");
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565823/wales_drrq7d.jpg");
     background-size: cover ;
     height: 350px;
   }
@@ -508,7 +508,7 @@ h1
 }
 .hero-image-wales {
   height: 700px;
-  background-image: url("./images/wales.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565823/wales_drrq7d.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -858,44 +858,44 @@ li {
 }
 
 .tours-wales_2024_09_monmouth_river_walk {
-  background-image: url("./images/wales_2024_09_monmouth_river_walk_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565909/wales_2024_09_monmouth_river_walk_profilepic_cp1c6d.jpg");
   background-position: center center;
 }
 .tours-wales_2024_06_devils_kitchen {
-  background-image: url("./images/wales_2024_06_devils_kitchen_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565876/wales_2024_06_devils_kitchen_profilepic_tnmu0i.jpg");
   background-position: center 1%;
 }
 .tours-wales_2024_06_porth_wen {
-  background-image: url("./images/wales_2024_06_porth_wen_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565906/wales_2024_06_porth_wen_profilepic_lgixwx.jpg");
   background-position: center 95%;
 }
 .tours-wales_2024_06_maes_yr_hendre_cottage {
-  background-image: url("./images/wales_2024_06_maes_yr_hendre_cottage_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565889/wales_2024_06_maes_yr_hendre_cottage_profilepic_xwps39.jpg");
   background-position: center 95%;
 }
 .tours-wales_2024_06_betws_y_coed_river_walk {
-  background-image: url("./images/wales_2024_06_betws_y_coed_river_walk_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565840/wales_2024_06_betws_y_coed_river_walk_profilepic_w70mrk.jpg");
   background-position: center 95%;
 }
 .tours-wales_2024_06_bodnant_garden {
-  background-image: url("./images/wales_2024_06_bodnant_garden_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565864/wales_2024_06_bodnant_garden_profilepic_ywifrd.jpg");
   background-position: center 95%;
 }
 .tours-wales_2024_06_aber_falls {
-  background-image: url("./images/wales_2024_06_aber_falls_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565838/wales_2024_06_aber_falls_profilepic_pg600w.jpg");
   background-position: center 1%;
 }
 .tours-wales_2023_09_monmouth {
-  background-image: url("./images/wales_2023_09_monmouth_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565831/wales_2023_09_monmouth_profilepic_z2oqhe.jpg");
   background-position: center center;
 }
 .tours-wales_2023_01_monmouth {
-  background-image: url("./images/wales_2023_01_monmouth_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565829/wales_2023_01_monmouth_profilepic_eciojp.jpg");
   background-position: center center;
 }
 
 .tours-wales_2021_10_elan_valley {
-  background-image: url("./images/wales_2021_10_elan_valley_profilepic.jpg");
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565828/wales_2021_10_elan_valley_profilepic_wp7i8c.jpg");
   background-position: center center;
 }
 
@@ -1064,7 +1064,7 @@ li {
 
 #myInput {
   align-items: center;
-  background-image: url('./images/searchicon.png'); /* Add a search icon to input */
+  background-image: url('https://res.cloudinary.com/dmy0c49mr/image/upload/v1744552540/searchicon_jzflfc.png'); /* Add a search icon to input */
   background-position: 10px 14px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
   width: 300px; /* Full-width */
