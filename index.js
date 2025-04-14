@@ -9,8 +9,8 @@ document.write('<div class="top-menu-container">\'\
         <li>\<a href="./wales.html">WALES</a>\</li>\
         <li>\<a href="./cornwall.html">CORNWALL</a>\</li>\
         <li>\<a href="./northumberland.html">NORTHUMBERLAND</a>\</li>\
-        <li>\<a href="./durham_2021_05_hurworth_burn_reservoir.html">DURHAM</a>\</li>\
-        <li>\<a href="./teesdale_2018_09_high_force.html">TEESDALE</a>\</li>\
+        <li>\<a href="./durham.html">DURHAM</a>\</li>\
+        <li>\<a href="./teesside_2025_04_eston_nab.html">TEESSIDE</a>\</li>\
         <li>\""\</li>\</div>');
 
 document.write('<div class="navbar">\
@@ -26,8 +26,8 @@ document.write('<div class="navbar">\
     <a href="./wales.html">WALES</a>\
     <a href="./cornwall.html">CORNWALL</a>\
     <a href="./northumberland.html">NORTHUMBERLAND</a>\
-    <a href="./durham_2021_05_hurworth_burn_reservoir.html">DURHAM</a>\
-    <a href="./teesdale_2018_09_high_force.html">TEESDALE</a>\
+    <a href="./durham.html">DURHAM</a>\
+    <a href="./teesside_2025_04_eston_nab.html">TEESSIDE</a>\
     </div></div></div>');
 
     document.write('<div class="navbar-laptop">\
@@ -43,6 +43,6 @@ document.write('<div class="navbar">\
         <div class="dropdown-laptop-content" id="myDropdown2">\
         <a href="./cornwall.html">CORNWALL</a>\
         <a href="./northumberland.html">NORTHUMBERLAND</a>\
-        <a href="./durham_2021_05_hurworth_burn_reservoir.html">DURHAM</a>\
-        <a href="./teesdale_2018_09_high_force.html">TEESDALE</a>\
+        <a href="./durham.html">DURHAM</a>\
+        <a href="./teesside_2025_04_eston_nab.html">TEESSIDE</a>\
         </div></div></div>');

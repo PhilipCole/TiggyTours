@@ -180,6 +180,16 @@
     background-position: center 100%;
     overflow: hidden;
   }
+  .hero-image-durham {
+    height: 550px;
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744387283/teesdale_2018_09_high_force_profilepic_ttien4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 100%;
+    overflow: hidden;
+  }
+
   #tours-title {
     background-color: white;
     color: #1e2024;
@@ -365,6 +375,15 @@
     background-size: cover ;
     height: 350px;
   }
+
+  .hero-image-durham {
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744387283/teesdale_2018_09_high_force_profilepic_ttien4.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  
+    
+
   .tours-top-banner {
     height: 350px;
     background-size: cover;
@@ -533,6 +552,16 @@ h1
   background-position: center 100%;
   overflow: hidden;
 }
+.hero-image-durham {
+  height: 700px;
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744387283/teesdale_2018_09_high_force_profilepic_ttien4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 100%;
+  overflow: hidden;
+}
+
 .tours-top-banner {
   height: 90vh;
   background-size: cover;

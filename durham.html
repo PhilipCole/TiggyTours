@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiggy Tours</title>
+  <link rel="stylesheet" href="./style.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+
+function myFunction2() {
+  document.getElementById("myDropdown2").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn-laptop')) {
+  var myDropdown2 = document.getElementById("myDropdown2");
+    if (myDropdown2.classList.contains('show')) {
+      myDropdown2.classList.remove('show');
+    }
+  }
+}
+  </script>
+ 
+  <section id="mainbanner">
+  </section>
+  <div class="hero-image-durham">
+    <div class="hero-text">
+      <h1>Durham</h1>
+    </div>
+  </div>
+  
+  <div id="whitespace"></div>
+  <hr />
+  <div id="whitespace"></div>
+  
+  <div id="tours-title">--   Durham Tours   --</div>
+
+  <div id="whitespace"></div>
+
+  <div class="tours-container">
+    <a href="./durham_2021_05_hurworth_burn_reservoir.html">
+      <div class="tours-thumbnail-box tours-durham_2021_05_hurworth_burn_reservoir">
+        <div class="tours-title">Durham - Hurworth Burn Reservoir to Crookfoot Reservoir - May 2021</div>
+      </div>
+    </a><a href="./teesdale_2018_09_high_force.html">
+      <div class="tours-thumbnail-box tours-teesdale_2018_09_high_force">
+        <div class="tours-title">Durham - High Force to Low Force - September 2018</div>
+      </div>
+    </a>
+
+    
+  </div>
+  <div id="whitespace"></div>    
+  <div id="whitespace"></div>
+        
+</body>
+
+</html>
+
