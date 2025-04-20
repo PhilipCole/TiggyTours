@@ -10,7 +10,7 @@
   color: #EEEEEE;
 }
 
-@media (min-width: 901px) and (max-width: 1500px)
+@media (min-width: 1001px) and (max-width: 1500px)
 {
   .top-menu-container{display:none;}
   .navbar{display:none;}
@@ -20,7 +20,7 @@
     background-color: black;
     font-family: "Oswald";
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     padding-left: 30px;
     width: 100%;
   }
@@ -29,7 +29,7 @@
     float: left;
     color: white;
     text-align: center;
-    padding: 10px 30px;
+    padding: 10px 25px;
     text-decoration: none;
   }
   
@@ -230,7 +230,7 @@
 
 
 
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 1000px)
 {
   .top-menu-container{display:none;}
   .navbar-laptop{display:none;}
