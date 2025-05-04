@@ -10,6 +10,189 @@
   color: #EEEEEE;
 }
 
+
+
+@media only screen and (max-width: 1000px)
+{
+  .top-menu-container{display:none;}
+  .navbar-laptop{display:none;}
+  .navbar {
+    overflow: hidden;
+    background-color: black;
+    font-family: "Oswald";
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: inherit;  
+    font-weight: inherit;
+    margin: 0;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 9px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
+  .hero-text {
+    color: white;
+    font-family: "Barlow Condensed";
+    font-size: 30px;
+    padding: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 2px black;
+  }
+  .hero-image-home {
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744556563/tiggy_profile_1_bnblhj.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+
+  .writeup-title {
+    font-family: "Barlow Condensed";
+    font-size: 30px;
+    text-align: left; 
+    color: #303236;
+  }
+
+  .writeup-block-for-text{
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+  #tours-title {
+    background-color: white;
+    color: #1e2024;
+    text-align: center ;
+    height:50px;
+    width: 100%;
+    font-size: 30px;
+    font-family: "Barlow Condensed";
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .hero-text-2 {
+    color: white;
+    font: "barlow-condensed-semibold";
+    font-size: 30px;
+    padding: 5% 5% 1% 5%;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 0 2px black;
+  }
+  .hero-image-yorkshire-dales {
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744569598/yorkshire_dales_fv0iih.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-north-york-moors {
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744542628/north_york_moors_yoxyqz.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-yorkshire-coast {
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744568704/yorkshire_coast_z5hotr.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-lake-district {
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744536533/lake_district_cawcoa.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-peak-district {
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744548820/peak_district_ifvkth.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-wales {
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565823/wales_drrq7d.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-northumberland {
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744547445/northumberland_lb1acr.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  .hero-image-cornwall {
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744400783/cornwall_n2anz6.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+
+  .hero-image-durham {
+    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744387283/teesdale_2018_09_high_force_profilepic_ttien4.jpg");
+    background-size: cover ;
+    height: 350px;
+  }
+  
+    
+
+  .tours-top-banner {
+    height: 350px;
+    background-size: cover;
+  }
+  .tours-top-banner-info{
+    display: inline-block;
+    font-family: "Barlow Condensed";
+    color: rgb(14, 126, 126);
+    background-color: rgba(238, 238, 238, 0.884);
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 5%;
+    padding: 1px 5px 6px 5px;
+    font-size: 18px;
+    width: 180px;
+  }
+}
+
+
 @media (min-width: 1001px) and (max-width: 1500px)
 {
   .top-menu-container{display:none;}
@@ -196,10 +379,17 @@
     text-align: center ;
     height:50px;
     width: 100%;
-    font-size: 50px;
+    font-size: 35px;
     font-family: "Barlow Condensed";
     font-weight: bold;
     text-transform: uppercase;
+  }
+
+  .writeup-title {
+    font-family: "Barlow Condensed";
+    font-size: 40px;
+    text-align: left; 
+    color: #303236;
   }
   .writeup-block-for-text{
     display: block;
@@ -226,180 +416,6 @@
       font-size: 24px;
       width: 300px;
     }
-}
-
-
-
-@media only screen and (max-width: 1000px)
-{
-  .top-menu-container{display:none;}
-  .navbar-laptop{display:none;}
-  .navbar {
-    overflow: hidden;
-    background-color: black;
-    font-family: "Oswald";
-    font-weight: bold;
-    font-size: 18px;
-  }
-  
-  .navbar a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 10px 30px;
-    text-decoration: none;
-  }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 10px 30px;
-    background-color: inherit;
-    font-family: inherit;
-    font-size: inherit;  
-    font-weight: inherit;
-    margin: 0;
-  }
-  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-    background-color: red;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 9px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .show {
-    display: block;
-  }
-  .hero-text {
-    color: white;
-    font-family: "Barlow Condensed";
-    font-size: 30px;
-    padding: 10%;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 0 2px black;
-  }
-  .hero-image-home {
-    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744556563/tiggy_profile_1_bnblhj.jpg");
-    background-size: cover ;
-    height: 350px;
-  }
-.writeup-block-for-text{
-  display: block;
-  margin-left: 10%;
-  margin-right: 10%;
-  }
-  #tours-title {
-    background-color: white;
-    color: #1e2024;
-    text-align: center ;
-    height:50px;
-    width: 100%;
-    font-size: 30px;
-    font-family: "Barlow Condensed";
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  .hero-text-2 {
-    color: white;
-    font: "barlow-condensed-semibold";
-    font-size: 30px;
-    padding: 5% 5% 1% 5%;
-    text-align: left;
-    text-transform: uppercase;
-    text-shadow: 0 2px black;
-  }
-  .hero-image-yorkshire-dales {
-    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744569598/yorkshire_dales_fv0iih.jpg");
-    background-size: cover ;
-    height: 350px;
-  }
-  .hero-image-north-york-moors {
-    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744542628/north_york_moors_yoxyqz.jpg");
-    background-size: cover ;
-    height: 350px;
-  }
-  .hero-image-yorkshire-coast {
-    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744568704/yorkshire_coast_z5hotr.jpg");
-    background-size: cover ;
-    height: 350px;
-  }
-  .hero-image-lake-district {
-    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744536533/lake_district_cawcoa.jpg");
-    background-size: cover ;
-    height: 350px;
-  }
-  .hero-image-peak-district {
-    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744548820/peak_district_ifvkth.jpg");
-    background-size: cover ;
-    height: 350px;
-  }
-  .hero-image-wales {
-    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744565823/wales_drrq7d.jpg");
-    background-size: cover ;
-    height: 350px;
-  }
-  .hero-image-northumberland {
-    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744547445/northumberland_lb1acr.jpg");
-    background-size: cover ;
-    height: 350px;
-  }
-  .hero-image-cornwall {
-    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744400783/cornwall_n2anz6.jpg");
-    background-size: cover ;
-    height: 350px;
-  }
-
-  .hero-image-durham {
-    background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1744387283/teesdale_2018_09_high_force_profilepic_ttien4.jpg");
-    background-size: cover ;
-    height: 350px;
-  }
-  
-    
-
-  .tours-top-banner {
-    height: 350px;
-    background-size: cover;
-  }
-  .tours-top-banner-info{
-    display: inline-block;
-    font-family: "Barlow Condensed";
-    color: rgb(14, 126, 126);
-    background-color: rgba(238, 238, 238, 0.884);
-    text-align: left;
-    text-transform: uppercase;
-    margin-left: 5%;
-    padding: 1px 5px 6px 5px;
-    font-size: 18px;
-    width: 180px;
-  }
 }
 
 
@@ -560,6 +576,13 @@ h1
   background-attachment: fixed;
   background-position: center 100%;
   overflow: hidden;
+}
+
+.writeup-title {
+  font-family: "Barlow Condensed";
+  font-size: 40px;
+  text-align: left; 
+  color: #303236;
 }
 
 .tours-top-banner {
@@ -773,13 +796,6 @@ li {
   padding-top: 5px;
   margin-left: 5px;
   
-}
-
-.writeup-title {
-  font-family: "Barlow Condensed";
-  font-size: 40px;
-  text-align: left; 
-  color: #303236;
 }
 
 .writeup-text {
