@@ -194,6 +194,7 @@
     padding: 1px 5px 6px 5px;
     font-size: 18px;
     width: 180px;
+    opacity: 0.75;
   }
 }
 
@@ -429,6 +430,7 @@
       padding: 10px 10px 15px 15px;
       font-size: 24px;
       width: 300px;
+      opacity: 0.75;
     }
 }
 
@@ -627,6 +629,7 @@ h1
   padding: 10px 10px 15px 15px;
   font-size: 24px;
   width: 300px;
+  opacity: 0.75;
 }
 }
 
@@ -798,7 +801,8 @@ li {
   padding-left: 10px;
   padding-right: 5px;
   padding-bottom: 5px;
-  font-size: 24px;
+  font-size: 22px;
+  opacity: 0.75;
 }
 
 .tours-title-small {
@@ -811,6 +815,7 @@ li {
   padding-right: 5px;
   padding-bottom: 5px;
   font-size: 20px;
+  opacity: 0.75;
 }
 
 .tours-top-banner-info-title{
