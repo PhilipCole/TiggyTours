@@ -795,16 +795,21 @@ li {
 .tours-title {
   font-family: "Barlow Condensed";
   color: #303236;
-  background-color: rgba(238, 238, 238, 0.884);
   text-align: left;
   text-transform: uppercase;
-  padding-left: 10px;
+  padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
   font-size: 22px;
-  opacity: 0.75;
 }
+.tours-title span {
+  background-color: rgba(238, 238, 238, 0.884);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  opacity: 0.9;
 
+}
 .tours-title-small {
   font-family: "Barlow Condensed";
   color: #303236;
