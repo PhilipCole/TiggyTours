@@ -991,7 +991,10 @@ li {
   background-position: center center;
 }
 
-
+.tours-north_york_moors_2025_08_hasty_bank_wainstones {
+  background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1757361598/north_york_moors_2025_08_hasty_bank_wainstones_profilepic_rngzie.jpg");
+  background-position: center 1%;
+}
 .tours-north_york_moors_2025_08_grange_bride_stones {
   background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1757187578/north_york_moors_2025_08_grange_bride_stones_profilepic_zydvl0.jpg");
   background-position: center 60%;
