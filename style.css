@@ -82,11 +82,11 @@
   .hero-text {
     color: white;
     font-family: "Barlow Condensed";
-    font-size: 30px;
+    font-size: 28px;
     padding: 10%;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 0 2px black;
+    text-shadow: 0 3px black;
   }
   .hero-image-home {
     background-image: url("https://res.cloudinary.com/dmy0c49mr/image/upload/v1758201111/tiggy_profile_1_gd5nz8.jpg");
@@ -192,8 +192,10 @@
     text-align: left;
     text-transform: uppercase;
     margin-left: 5%;
+    margin-top: 120px;
     padding: 1px 5px 6px 5px;
     font-size: 16px;
+    line-height: 1;
     width: 170px;
     opacity: 0.75;
   }
@@ -204,7 +206,6 @@
 {
   .top-menu-container{display:none;}
   .navbar{display:none;}
-
   .navbar-laptop {
     overflow: hidden;
     background-color: black;
@@ -428,6 +429,7 @@
       text-align: left;
       text-transform: uppercase;
       margin-left: 5%;
+      margin-top: 100px;
       padding: 10px 10px 15px 15px;
       font-size: 24px;
       width: 300px;
